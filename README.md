@@ -1,6 +1,6 @@
 # Analiza podatkov s programom R, 2018/19
 
-# Domen Flakus Bosilj
+# Domen Flakus
 
 Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 
