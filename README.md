@@ -1,4 +1,6 @@
-# Analiza podatkov s programom R, 2018/19
+# Trg dela v Sloveniji
+
+## Analiza podatkov s programom R, 2018/19
 
 Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 
@@ -6,10 +8,18 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 * [![RStudio](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jaanos/APPR-2018-19/master?urlpath=rstudio) RStudio
 
 ## Tematika
+Po tabelah bom najprej analiziral delovno aktivno prebivalsto, brezposelne in prosta delovna mesta po statisticnih regijah ter spolu. Nato bom analiziral povprečne mesečne plače po dejavnostih ter zaposlene osebe po višini neto plače. Vse analize bodo narejene za leto in v tabelah, kjer so podatki predstavljeni po mesecih vzel prvi mesec v letu kot merilo za to leto.
 
-Izbrali si boste temo, s katero se bo vaš projekt ukvarjal.
-Tukaj boste napisali, kje ste dobili podatke, ter kakšen je vaš cilj.
 
+## Povezave do tabel
+
+https://pxweb.stat.si/pxweb/Dialog/varval.asp?ma=0700950S&ti=&path=../Database/Dem_soc/07_trg_dela/90_arhivski_podatki/02_akt_preb_mes_arhiv/&lang=2
+
+https://pxweb.stat.si/pxweb/Dialog/varval.asp?ma=0711535S&ti=&path=../Database/Dem_soc/07_trg_dela/10_place/10_07115_zap_osebe_placa/&lang=2
+
+https://pxweb.stat.si/pxweb/Dialog/varval.asp?ma=0701081S&ti=&path=../Database/Dem_soc/07_trg_dela/90_arhivski_podatki/80_place_arhiv/&lang=2
+
+https://pxweb.stat.si/pxweb/Dialog/varval.asp?ma=0714694S&ti=&path=../Database/Dem_soc/07_trg_dela/30_07146_prosta_mesta/&lang=2
 ## Program
 
 Glavni program in poročilo se nahajata v datoteki `projekt.Rmd`.
