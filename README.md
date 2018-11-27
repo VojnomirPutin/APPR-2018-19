@@ -7,10 +7,10 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 * [![Shiny](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jaanos/APPR-2018-19/master?urlpath=shiny/APPR-2018-19/projekt.Rmd) Shiny
 * [![RStudio](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jaanos/APPR-2018-19/master?urlpath=rstudio) RStudio
 
-## Tematika
+## Analiza transporta v EU
 
-Izbrali si boste temo, s katero se bo vaš projekt ukvarjal.
-Tukaj boste napisali, kje ste dobili podatke, ter kakšen je vaš cilj.
+V projektu bom analiziral različne načine transporta ljudi in blaga v državah EU, pri čemer bom upošteval različne dejavnike kot so npr. število prebivalcev, razvitost držav in še nekateri drugi. Poskušal bom poiskati povezave med infrastrukturo, ki jo posamezna država nudi za določen način transporta, ter količino uporabe te vrste transporta, kar bo kazalo na to, kako učinkovite so države pri uporabi različnih načinov transporta. 
+Podatke za svojo raziskavo bom posikal na spletnih straneh Eurostata. 
 
 ## Program
 
