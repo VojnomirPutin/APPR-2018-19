@@ -8,8 +8,10 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 * [![RStudio](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jaanos/APPR-2018-19/master?urlpath=rstudio) RStudio
 
 ## Tematika
-Po tabelah bom najprej analiziral delovno aktivno prebivalsto, brezposelne in prosta delovna mesta po statisticnih regijah ter spolu. Nato bom analiziral povprečne mesečne plače po dejavnostih ter zaposlene osebe po višini neto plače. Vse analize bodo narejene za leto in v tabelah, kjer so podatki predstavljeni po mesecih vzel prvi mesec v letu kot merilo za to leto.
+V svoji projektni nalogi bom analiziral trg dela v Sloveniji, v različnih obdobjih po statističnih regijah. 
 
+## Podatki
+Po tabelah bom najprej analiziral delovno aktivno prebivalsto, brezposelne in prosta delovna mesta po statisticnih regijah ter spolu. Nato bom analiziral povprečne mesečne plače po dejavnostih ter zaposlene osebe po višini neto plače. Vse analize bodo narejene za leto in v tabelah, kjer so podatki predstavljeni po mesecih vzel prvi mesec v letu kot merilo za to leto.
 
 ## Povezave do tabel
 
