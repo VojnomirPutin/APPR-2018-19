@@ -10,7 +10,7 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 ## Analiza transporta v EU
 
 V projektu bom analiziral različne načine transporta ljudi in blaga v državah EU, pri čemer bom upošteval različne dejavnike kot so npr. število prebivalcev, razvitost držav in še nekateri drugi. Poskušal bom poiskati povezave med infrastrukturo, ki jo posamezna država nudi za določen način transporta, ter količino uporabe te vrste transporta, kar bo kazalo na to, kako učinkovite so države pri uporabi različnih načinov transporta. 
-Podatke za svojo raziskavo bom posikal na spletnih straneh Eurostata. 
+Podatke za svojo raziskavo bom poiskal na spletnih straneh Eurostata. 
 
 ## Program
 
