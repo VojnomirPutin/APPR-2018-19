@@ -5,15 +5,57 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 * [![Shiny](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jaanos/APPR-2018-19/master?urlpath=shiny/APPR-2018-19/projekt.Rmd) Shiny
 * [![RStudio](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jaanos/APPR-2018-19/master?urlpath=rstudio) RStudio
 
+
 ## Tematika in analize
 
-V projektu bom analiziral različne načine transporta ljudi in blaga v evropskih državah, pri čemer bom upošteval različne dejavnike kot so npr. število prebivalcev, razvitost držav in še nekateri drugi.
+V projektu bom analiziral različne načine transporta ljudi in blaga v evropskih državah.
 
-Skozi analize podatkov bom poskušal poiskati povezave med priljubljenostjo določene vrste transporta ter infrastrukturo, ki jo katera od držav nudi. Prav tako bom primerjal vrste transporta glede na njihovo varnost. Natančneje bom preučil tudi to, kako povprečna plača vpliva na to, koliko avtomobilov je v določeni državi.
+Skozi analize podatkov bom skušal poiskati povezave med priljubljenostjo določene vrste transporta ter gospodarsko razvitostjo države. Prav tako bom primerjal vrste transporta glede na njihovo varnost, ter obravnaval vpliv transporta na okolje. Natančneje bom preučil tudi avtomobilski promet, saj je le-ta v mnogih državah Evrope najbolj razširjen, in iskal povezave med številom avtomobilov in življenskim standardom v določeni državi.
 
-Moji glavni cilji analize bodo, da bi za vsako od evropskih držav poiskal najbolj varen način transporta, ugotovil katere države so najbolj učinkovite pri vlaganju v transportno infrastrukturo ter prikazati, kako so se deleži uporabe različnih tipov transporta spreminjali v zadnjih 10 letih.
+Glavni cilji moje analize bodo, da bi za vsako od evropskih držav poiskal najbolj varen način transporta in tistega, ki je okolju najbolj prijazen ter ugotoviti, ali obstaja povezava med gospodarsko razvitostjo države in vrsto transporta, ki jo prebivalci največ uporabljajo. Prikazal bom tudi, kako so se deleži uporabe različnih tipov transporta spreminjali v zadnjih 10 letih.
 
-Uporabil bom podatke, ki jih bom pridobil na spletnih straneh Eurostata in bodo opisovali obdobje od leta 2007 do 2016. 
+Uporabil bom podatke, ki sem jih pridobil na spletnih straneh Eurostata in opisujejo obdobje od leta 2007 do 2016. 
+
+
+## Podatki
+
+Tabela 1 (delitev vrst transporta za namene prevoza ljudi in tovora)
+- 1. stolpec: država
+- 2. stolpec: leto
+- 3. stolpec: ljudje/tovor
+- 4. stolpec: vrsta transporta
+- 5. stolpec: deleži transportiranega tovora/ljudi
+
+Tabela 2 (število žrtev nesreč različnih vrst transporta)
+- 1. stolpec: država
+- 2. stolpec: leto
+- 3. stolpec: vrsta transporta
+- 4. stolpec: število žrtev
+
+Tabela 3 (BDPpc)
+- 1. stolpec: država
+- 2. stolpec: leto
+- 3. stolpec: BDPpc
+
+Tabela 4 (onesnaženost zraka)
+- 1. stolpec: država
+- 2. stolpec: leto
+- 3. stolpec: toplogredni plini
+
+
+## Spletne povezave do tabel
+
+- http://appsso.eurostat.ec.europa.eu/nui/show.do?query=BOOKMARK_DS-062834_QID_20A12DAC_UID_-3F171EB0&layout=TIME,C,X,0;GEO,L,Y,0;TRA_MODE,L,Z,0;UNIT,L,Z,1;INDICATORS,C,Z,2;&zSelection=DS-062834INDICATORS,OBS_FLAG;DS-062834UNIT,PC;DS-062834TRA_MODE,ROAD;&rankName1=UNIT_1_2_-1_2&rankName2=INDICATORS_1_2_-1_2&rankName3=TRA-MODE_1_2_-1_2&rankName4=TIME_1_0_0_0&rankName5=GEO_1_2_0_1&sortC=ASC_-1_FIRST&rStp=&cStp=&rDCh=&cDCh=&rDM=true&cDM=true&footnes=false&empty=false&wai=false&time_mode=NONE&time_most_recent=false&lang=EN&cfo=%23%23%23%2C%23%23%23.%23%23%23
+
+- http://appsso.eurostat.ec.europa.eu/nui/show.do?query=BOOKMARK_DS-060946_QID_779A0E8E_UID_-3F171EB0&layout=TIME,C,X,0;GEO,L,Y,0;VEHICLE,L,Z,0;UNIT,L,Z,1;INDICATORS,C,Z,2;&zSelection=DS-060946INDICATORS,OBS_FLAG;DS-060946VEHICLE,BUS_TOT;DS-060946UNIT,PC;&rankName1=UNIT_1_2_-1_2&rankName2=INDICATORS_1_2_-1_2&rankName3=VEHICLE_1_2_-1_2&rankName4=TIME_1_0_0_0&rankName5=GEO_1_2_0_1&sortC=ASC_-1_FIRST&rStp=&cStp=&rDCh=&cDCh=&rDM=true&cDM=true&footnes=false&empty=false&wai=false&time_mode=NONE&time_most_recent=false&lang=EN&cfo=%23%23%23%2C%23%23%23.%23%23%23
+
+- http://appsso.eurostat.ec.europa.eu/nui/show.do?query=BOOKMARK_DS-364373_QID_-3F1E0B3B_UID_-3F171EB0&layout=TIME,C,X,0;GEO,L,Y,0;UNIT,L,Z,0;ACCIDENT,L,Z,1;VICTIM,L,Z,2;PERS_INV,L,Z,3;INDICATORS,C,Z,4;&zSelection=DS-364373ACCIDENT,TOTAL;DS-364373UNIT,NR;DS-364373INDICATORS,OBS_FLAG;DS-364373VICTIM,KIL;DS-364373PERS_INV,TOTAL;&rankName1=ACCIDENT_1_2_-1_2&rankName2=UNIT_1_2_-1_2&rankName3=VICTIM_1_2_-1_2&rankName4=INDICATORS_1_2_-1_2&rankName5=PERS-INV_1_2_-1_2&rankName6=TIME_1_0_0_0&rankName7=GEO_1_2_0_1&sortC=ASC_-1_FIRST&rStp=&cStp=&rDCh=&cDCh=&rDM=true&cDM=true&footnes=false&empty=false&wai=false&time_mode=NONE&time_most_recent=false&lang=EN&cfo=%23%23%23%2C%23%23%23.%23%23%23
+
+- http://appsso.eurostat.ec.europa.eu/nui/show.do?query=BOOKMARK_DS-732654_QID_4EA8C561_UID_-3F171EB0&layout=TIME,C,X,0;GEO,L,Y,0;UNIT,L,Z,0;VEHICLE,L,Z,1;INDICATORS,C,Z,2;&zSelection=DS-732654INDICATORS,OBS_FLAG;DS-732654UNIT,NR;DS-732654VEHICLE,CAR;&rankName1=UNIT_1_2_-1_2&rankName2=INDICATORS_1_2_-1_2&rankName3=VEHICLE_1_2_-1_2&rankName4=TIME_1_0_0_0&rankName5=GEO_1_2_0_1&sortC=ASC_-1_FIRST&rStp=&cStp=&rDCh=&cDCh=&rDM=true&cDM=true&footnes=false&empty=false&wai=false&time_mode=NONE&time_most_recent=false&lang=EN&cfo=%23%23%23%2C%23%23%23.%23%23%23
+
+- http://appsso.eurostat.ec.europa.eu/nui/show.do?query=BOOKMARK_DS-420898_QID_7C9EE28A_UID_-3F171EB0&layout=TIME,C,X,0;GEO,L,Y,0;UNIT,L,Z,0;NA_ITEM,L,Z,1;INDICATORS,C,Z,2;&zSelection=DS-420898INDICATORS,OBS_FLAG;DS-420898UNIT,CP_EUR_HAB;DS-420898NA_ITEM,B1GQ;&rankName1=UNIT_1_2_-1_2&rankName2=INDICATORS_1_2_-1_2&rankName3=NA-ITEM_1_2_-1_2&rankName4=TIME_1_0_0_0&rankName5=GEO_1_2_0_1&sortR=ASC_9&sortC=ASC_-1_FIRST&rStp=&cStp=&rDCh=&cDCh=&rDM=true&cDM=true&footnes=false&empty=false&wai=false&time_mode=NONE&time_most_recent=false&lang=EN&cfo=%23%23%23%2C%23%23%23.%23%23%23
+
+- http://appsso.eurostat.ec.europa.eu/nui/show.do?query=BOOKMARK_DS-286146_QID_1D13864E_UID_-3F171EB0&layout=TIME,C,X,0;GEO,L,Y,0;AIRPOL,L,Z,0;NACE_R2,L,Z,1;UNIT,L,Z,2;INDICATORS,C,Z,3;&zSelection=DS-286146INDICATORS,OBS_FLAG;DS-286146UNIT,KG_HAB;DS-286146NACE_R2,TOTAL;DS-286146AIRPOL,CO2_N2O_CH4_CO2E;&rankName1=UNIT_1_2_-1_2&rankName2=AIRPOL_1_2_-1_2&rankName3=INDICATORS_1_2_-1_2&rankName4=NACE-R2_1_2_-1_2&rankName5=TIME_1_0_0_0&rankName6=GEO_1_2_0_1&sortC=ASC_-1_FIRST&rStp=&cStp=&rDCh=&cDCh=&rDM=true&cDM=true&footnes=false&empty=false&wai=false&time_mode=NONE&time_most_recent=false&lang=EN&cfo=%23%23%23%2C%23%23%23.%23%23%23
 
 ## Program
 
