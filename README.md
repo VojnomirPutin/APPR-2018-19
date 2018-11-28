@@ -1,4 +1,4 @@
-# Analiza transporta v EU
+# Analiza transporta v Evropi
 
 Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 
@@ -8,8 +8,11 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 ## Tematika in analize
 
 V projektu bom analiziral različne načine transporta ljudi in blaga v evropskih državah, pri čemer bom upošteval različne dejavnike kot so npr. število prebivalcev, razvitost držav in še nekateri drugi.
+
 Skozi analize podatkov bom poskušal poiskati povezave med priljubljenostjo določene vrste transporta ter infrastrukturo, ki jo katera od držav nudi. Prav tako bom primerjal vrste transporta glede na njihovo varnost. Natančneje bom preučil tudi to, kako povprečna plača vpliva na to, koliko avtomobilov je v določeni državi.
+
 Moji glavni cilji analize bodo, da bi za vsako od evropskih držav poiskal najbolj varen način transporta, ugotovil katere države so najbolj učinkovite pri vlaganju v transportno infrastrukturo ter prikazati, kako so se deleži uporabe različnih tipov transporta spreminjali v zadnjih 10 letih.
+
 Uporabil bom podatke, ki jih bom pridobil na spletnih straneh Eurostata in bodo opisovali obdobje od leta 2007 do 2016. 
 
 ## Program
