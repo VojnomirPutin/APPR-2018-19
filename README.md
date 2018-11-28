@@ -1,16 +1,16 @@
-# Analiza podatkov s programom R, 2018/19
-
-# Domen Flakus Bosilj
+# Analiza transporta v EU
 
 Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 
 * [![Shiny](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jaanos/APPR-2018-19/master?urlpath=shiny/APPR-2018-19/projekt.Rmd) Shiny
 * [![RStudio](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/jaanos/APPR-2018-19/master?urlpath=rstudio) RStudio
 
-## Analiza transporta v EU
+## Tematika in analize
 
-V projektu bom analiziral različne načine transporta ljudi in blaga v državah EU, pri čemer bom upošteval različne dejavnike kot so npr. število prebivalcev, razvitost držav in še nekateri drugi. Poskušal bom poiskati povezave med infrastrukturo, ki jo posamezna država nudi za določen način transporta, ter količino uporabe te vrste transporta, kar bo kazalo na to, kako učinkovite so države pri uporabi različnih načinov transporta. Nekaj pozornosti pa bom namenil tudi analizi varnosti in vplivov na okolje.
-Podatke za svojo raziskavo bom poiskal na spletnih straneh Eurostata. 
+V projektu bom analiziral različne načine transporta ljudi in blaga v evropskih državah, pri čemer bom upošteval različne dejavnike kot so npr. število prebivalcev, razvitost držav in še nekateri drugi.
+Skozi analize podatkov bom poskušal poiskati povezave med priljubljenostjo določene vrste transporta ter infrastrukturo, ki jo katera od držav nudi. Prav tako bom primerjal vrste transporta glede na njihovo varnost. Natančneje bom preučil tudi to, kako povprečna plača vpliva na to, koliko avtomobilov je v določeni državi.
+Moji glavni cilji analize bodo, da bi za vsako od evropskih držav poiskal najbolj varen način transporta, ugotovil katere države so najbolj učinkovite pri vlaganju v transportno infrastrukturo ter prikazati, kako so se deleži uporabe različnih tipov transporta spreminjali v zadnjih 10 letih.
+Uporabil bom podatke, ki jih bom pridobil na spletnih straneh Eurostata in bodo opisovali obdobje od leta 2007 do 2016. 
 
 ## Program
 
