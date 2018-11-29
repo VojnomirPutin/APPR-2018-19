@@ -13,6 +13,13 @@ V svoji projektni nalogi bom analiziral trg dela v Sloveniji, v različnih obdob
 ## Podatki
 Po tabelah bom najprej analiziral delovno aktivno prebivalsto, brezposelne in prosta delovna mesta po statisticnih regijah ter spolu. Nato bom analiziral povprečne mesečne plače po dejavnostih ter zaposlene osebe po višini neto plače. Vse analize bodo narejene za leto in v tabelah, kjer so podatki predstavljeni po mesecih vzel prvi mesec v letu kot merilo za to leto.
 
+## Tabele
+
+1. tabela: leto, statistična regija, spol, aktivno prebivalstvo, zaposleni, brezposelni
+2. tabela: leto, statistična regija, prosta delovna mesta
+3. tabela: leto, statistična regija, spol, povprečna plača, dejavnost
+4. tabela: leto, statistična regija, spol, število ljudi v plačilnem razredu
+
 ## Povezave do tabel
 
 https://pxweb.stat.si/pxweb/Dialog/varval.asp?ma=0700950S&ti=&path=../Database/Dem_soc/07_trg_dela/90_arhivski_podatki/02_akt_preb_mes_arhiv/&lang=2
