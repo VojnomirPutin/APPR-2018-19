@@ -1,0 +1,871 @@
+"","Leto","Drzava","Prevozno_sredstvo","Delez"
+"1",2007,"European Union (current composition)","Trains",7.1
+"2",2007,"European Union (current composition)","Passenger cars",83.1
+"3",2007,"European Union (current composition)","Motor coaches, buses and trolley buses",9.8
+"4",2007,"Belgium","Trains",7.1
+"5",2007,"Belgium","Passenger cars",78.8
+"6",2007,"Belgium","Motor coaches, buses and trolley buses",14.1
+"7",2007,"Bulgaria","Trains",4.4
+"8",2007,"Bulgaria","Passenger cars",73.8
+"9",2007,"Bulgaria","Motor coaches, buses and trolley buses",21.8
+"10",2007,"Czechia","Trains",7.3
+"11",2007,"Czechia","Passenger cars",75.7
+"12",2007,"Czechia","Motor coaches, buses and trolley buses",17
+"13",2007,"Denmark","Trains",9.7
+"14",2007,"Denmark","Passenger cars",79.6
+"15",2007,"Denmark","Motor coaches, buses and trolley buses",10.7
+"16",2007,"Germany (until 1990 former territory of the FRG)","Trains",7.8
+"17",2007,"Germany (until 1990 former territory of the FRG)","Passenger cars",85.7
+"18",2007,"Germany (until 1990 former territory of the FRG)","Motor coaches, buses and trolley buses",6.5
+"19",2007,"Estonia","Trains",2.1
+"20",2007,"Estonia","Passenger cars",77.2
+"21",2007,"Estonia","Motor coaches, buses and trolley buses",20.7
+"22",2007,"Ireland","Trains",3.4
+"23",2007,"Ireland","Passenger cars",82.3
+"24",2007,"Ireland","Motor coaches, buses and trolley buses",14.2
+"25",2007,"Greece","Trains",1.6
+"26",2007,"Greece","Passenger cars",79.9
+"27",2007,"Greece","Motor coaches, buses and trolley buses",18.5
+"28",2007,"Spain","Trains",5
+"29",2007,"Spain","Passenger cars",81
+"30",2007,"Spain","Motor coaches, buses and trolley buses",14
+"31",2007,"France","Trains",9.6
+"32",2007,"France","Passenger cars",84.9
+"33",2007,"France","Motor coaches, buses and trolley buses",5.5
+"34",2007,"Croatia","Trains",5
+"35",2007,"Croatia","Passenger cars",82.9
+"36",2007,"Croatia","Motor coaches, buses and trolley buses",12.1
+"37",2007,"Italy","Trains",6
+"38",2007,"Italy","Passenger cars",81.6
+"39",2007,"Italy","Motor coaches, buses and trolley buses",12.4
+"40",2007,"Latvia","Trains",4.9
+"41",2007,"Latvia","Passenger cars",79.4
+"42",2007,"Latvia","Motor coaches, buses and trolley buses",15.7
+"43",2007,"Lithuania","Trains",0.6
+"44",2007,"Lithuania","Passenger cars",91
+"45",2007,"Lithuania","Motor coaches, buses and trolley buses",8.4
+"46",2007,"Luxembourg","Trains",4.1
+"47",2007,"Luxembourg","Passenger cars",84.9
+"48",2007,"Luxembourg","Motor coaches, buses and trolley buses",11.1
+"49",2007,"Hungary","Trains",11
+"50",2007,"Hungary","Passenger cars",67.6
+"51",2007,"Hungary","Motor coaches, buses and trolley buses",21.5
+"52",2007,"Netherlands","Trains",9.6
+"53",2007,"Netherlands","Passenger cars",87.5
+"54",2007,"Netherlands","Motor coaches, buses and trolley buses",2.9
+"55",2007,"Austria","Trains",10
+"56",2007,"Austria","Passenger cars",78.9
+"57",2007,"Austria","Motor coaches, buses and trolley buses",11.1
+"58",2007,"Poland","Trains",8.5
+"59",2007,"Poland","Passenger cars",70.7
+"60",2007,"Poland","Motor coaches, buses and trolley buses",20.8
+"61",2007,"Portugal","Trains",4.1
+"62",2007,"Portugal","Passenger cars",89.4
+"63",2007,"Portugal","Motor coaches, buses and trolley buses",6.5
+"64",2007,"Romania","Trains",8.6
+"65",2007,"Romania","Passenger cars",77.5
+"66",2007,"Romania","Motor coaches, buses and trolley buses",14
+"67",2007,"Slovenia","Trains",2.6
+"68",2007,"Slovenia","Passenger cars",86
+"69",2007,"Slovenia","Motor coaches, buses and trolley buses",11.4
+"70",2007,"Slovakia","Trains",6
+"71",2007,"Slovakia","Passenger cars",72
+"72",2007,"Slovakia","Motor coaches, buses and trolley buses",22
+"73",2007,"Finland","Trains",5
+"74",2007,"Finland","Passenger cars",84.9
+"75",2007,"Finland","Motor coaches, buses and trolley buses",10
+"76",2007,"Sweden","Trains",7.9
+"77",2007,"Sweden","Passenger cars",84.9
+"78",2007,"Sweden","Motor coaches, buses and trolley buses",7.2
+"79",2007,"United Kingdom","Trains",6.6
+"80",2007,"United Kingdom","Passenger cars",87.9
+"81",2007,"United Kingdom","Motor coaches, buses and trolley buses",5.5
+"82",2007,"Norway","Trains",4.6
+"83",2007,"Norway","Passenger cars",88.7
+"84",2007,"Norway","Motor coaches, buses and trolley buses",6.7
+"85",2007,"Switzerland","Trains",17
+"86",2007,"Switzerland","Passenger cars",77.4
+"87",2007,"Switzerland","Motor coaches, buses and trolley buses",5.5
+"88",2008,"European Union (current composition)","Trains",7.4
+"89",2008,"European Union (current composition)","Passenger cars",82.8
+"90",2008,"European Union (current composition)","Motor coaches, buses and trolley buses",9.9
+"91",2008,"Belgium","Trains",7.5
+"92",2008,"Belgium","Passenger cars",79.6
+"93",2008,"Belgium","Motor coaches, buses and trolley buses",13
+"94",2008,"Bulgaria","Trains",4
+"95",2008,"Bulgaria","Passenger cars",75.1
+"96",2008,"Bulgaria","Motor coaches, buses and trolley buses",20.8
+"97",2008,"Czechia","Trains",7.1
+"98",2008,"Czechia","Passenger cars",76
+"99",2008,"Czechia","Motor coaches, buses and trolley buses",16.9
+"100",2008,"Denmark","Trains",9.7
+"101",2008,"Denmark","Passenger cars",79.8
+"102",2008,"Denmark","Motor coaches, buses and trolley buses",10.5
+"103",2008,"Germany (until 1990 former territory of the FRG)","Trains",8.1
+"104",2008,"Germany (until 1990 former territory of the FRG)","Passenger cars",85.6
+"105",2008,"Germany (until 1990 former territory of the FRG)","Motor coaches, buses and trolley buses",6.3
+"106",2008,"Estonia","Trains",2.1
+"107",2008,"Estonia","Passenger cars",79.4
+"108",2008,"Estonia","Motor coaches, buses and trolley buses",18.5
+"109",2008,"Ireland","Trains",3.3
+"110",2008,"Ireland","Passenger cars",82.3
+"111",2008,"Ireland","Motor coaches, buses and trolley buses",14.4
+"112",2008,"Greece","Trains",1.3
+"113",2008,"Greece","Passenger cars",80.8
+"114",2008,"Greece","Motor coaches, buses and trolley buses",17.9
+"115",2008,"Spain","Trains",5.5
+"116",2008,"Spain","Passenger cars",80.3
+"117",2008,"Spain","Motor coaches, buses and trolley buses",14.3
+"118",2008,"France","Trains",10.1
+"119",2008,"France","Passenger cars",84.2
+"120",2008,"France","Motor coaches, buses and trolley buses",5.7
+"121",2008,"Croatia","Trains",5.4
+"122",2008,"Croatia","Passenger cars",82.2
+"123",2008,"Croatia","Motor coaches, buses and trolley buses",12.5
+"124",2008,"Italy","Trains",6
+"125",2008,"Italy","Passenger cars",81.7
+"126",2008,"Italy","Motor coaches, buses and trolley buses",12.4
+"127",2008,"Latvia","Trains",5.2
+"128",2008,"Latvia","Passenger cars",78.7
+"129",2008,"Latvia","Motor coaches, buses and trolley buses",16.1
+"130",2008,"Lithuania","Trains",0.6
+"131",2008,"Lithuania","Passenger cars",91.2
+"132",2008,"Lithuania","Motor coaches, buses and trolley buses",8.2
+"133",2008,"Luxembourg","Trains",4.3
+"134",2008,"Luxembourg","Passenger cars",84.2
+"135",2008,"Luxembourg","Motor coaches, buses and trolley buses",11.4
+"136",2008,"Hungary","Trains",10.4
+"137",2008,"Hungary","Passenger cars",67.5
+"138",2008,"Hungary","Motor coaches, buses and trolley buses",22.1
+"139",2008,"Netherlands","Trains",9.8
+"140",2008,"Netherlands","Passenger cars",87.1
+"141",2008,"Netherlands","Motor coaches, buses and trolley buses",3
+"142",2008,"Austria","Trains",11.1
+"143",2008,"Austria","Passenger cars",78.3
+"144",2008,"Austria","Motor coaches, buses and trolley buses",10.6
+"145",2008,"Poland","Trains",8.2
+"146",2008,"Poland","Passenger cars",71.9
+"147",2008,"Poland","Motor coaches, buses and trolley buses",19.9
+"148",2008,"Portugal","Trains",4.3
+"149",2008,"Portugal","Passenger cars",89.2
+"150",2008,"Portugal","Motor coaches, buses and trolley buses",6.4
+"151",2008,"Romania","Trains",7.1
+"152",2008,"Romania","Passenger cars",72.2
+"153",2008,"Romania","Motor coaches, buses and trolley buses",20.7
+"154",2008,"Slovenia","Trains",2.7
+"155",2008,"Slovenia","Passenger cars",86.4
+"156",2008,"Slovenia","Motor coaches, buses and trolley buses",10.9
+"157",2008,"Slovakia","Trains",6.4
+"158",2008,"Slovakia","Passenger cars",73
+"159",2008,"Slovakia","Motor coaches, buses and trolley buses",20.6
+"160",2008,"Finland","Trains",5.4
+"161",2008,"Finland","Passenger cars",84.5
+"162",2008,"Finland","Motor coaches, buses and trolley buses",10.1
+"163",2008,"Sweden","Trains",8.6
+"164",2008,"Sweden","Passenger cars",84.3
+"165",2008,"Sweden","Motor coaches, buses and trolley buses",7.1
+"166",2008,"United Kingdom","Trains",6.9
+"167",2008,"United Kingdom","Passenger cars",87.2
+"168",2008,"United Kingdom","Motor coaches, buses and trolley buses",5.9
+"169",2008,"Norway","Trains",4.8
+"170",2008,"Norway","Passenger cars",88.5
+"171",2008,"Norway","Motor coaches, buses and trolley buses",6.7
+"172",2008,"Switzerland","Trains",17.1
+"173",2008,"Switzerland","Passenger cars",77.8
+"174",2008,"Switzerland","Motor coaches, buses and trolley buses",5.2
+"175",2009,"European Union (current composition)","Trains",7.1
+"176",2009,"European Union (current composition)","Passenger cars",83.6
+"177",2009,"European Union (current composition)","Motor coaches, buses and trolley buses",9.3
+"178",2009,"Belgium","Trains",7.5
+"179",2009,"Belgium","Passenger cars",79.5
+"180",2009,"Belgium","Motor coaches, buses and trolley buses",13
+"181",2009,"Bulgaria","Trains",3.7
+"182",2009,"Bulgaria","Passenger cars",79.5
+"183",2009,"Bulgaria","Motor coaches, buses and trolley buses",16.8
+"184",2009,"Czechia","Trains",6.8
+"185",2009,"Czechia","Passenger cars",76.2
+"186",2009,"Czechia","Motor coaches, buses and trolley buses",16.9
+"187",2009,"Denmark","Trains",9.5
+"188",2009,"Denmark","Passenger cars",80.1
+"189",2009,"Denmark","Motor coaches, buses and trolley buses",10.4
+"190",2009,"Germany (until 1990 former territory of the FRG)","Trains",7.9
+"191",2009,"Germany (until 1990 former territory of the FRG)","Passenger cars",86
+"192",2009,"Germany (until 1990 former territory of the FRG)","Motor coaches, buses and trolley buses",6.1
+"193",2009,"Estonia","Trains",1.9
+"194",2009,"Estonia","Passenger cars",81.6
+"195",2009,"Estonia","Motor coaches, buses and trolley buses",16.4
+"196",2009,"Ireland","Trains",2.8
+"197",2009,"Ireland","Passenger cars",82.1
+"198",2009,"Ireland","Motor coaches, buses and trolley buses",15
+"199",2009,"Greece","Trains",1.2
+"200",2009,"Greece","Passenger cars",81.9
+"201",2009,"Greece","Motor coaches, buses and trolley buses",16.9
+"202",2009,"Spain","Trains",5.4
+"203",2009,"Spain","Passenger cars",81.4
+"204",2009,"Spain","Motor coaches, buses and trolley buses",13.3
+"205",2009,"France","Trains",9.4
+"206",2009,"France","Passenger cars",85.4
+"207",2009,"France","Motor coaches, buses and trolley buses",5.2
+"208",2009,"Croatia","Trains",5.6
+"209",2009,"Croatia","Passenger cars",83.6
+"210",2009,"Croatia","Motor coaches, buses and trolley buses",10.7
+"211",2009,"Italy","Trains",5.5
+"212",2009,"Italy","Passenger cars",82.8
+"213",2009,"Italy","Motor coaches, buses and trolley buses",11.7
+"214",2009,"Latvia","Trains",4.7
+"215",2009,"Latvia","Passenger cars",80.2
+"216",2009,"Latvia","Motor coaches, buses and trolley buses",15.1
+"217",2009,"Lithuania","Trains",0.6
+"218",2009,"Lithuania","Passenger cars",92.3
+"219",2009,"Lithuania","Motor coaches, buses and trolley buses",7.1
+"220",2009,"Luxembourg","Trains",4.3
+"221",2009,"Luxembourg","Passenger cars",84.3
+"222",2009,"Luxembourg","Motor coaches, buses and trolley buses",11.4
+"223",2009,"Hungary","Trains",10.2
+"224",2009,"Hungary","Passenger cars",69.1
+"225",2009,"Hungary","Motor coaches, buses and trolley buses",20.7
+"226",2009,"Netherlands","Trains",9.8
+"227",2009,"Netherlands","Passenger cars",87.3
+"228",2009,"Netherlands","Motor coaches, buses and trolley buses",2.9
+"229",2009,"Austria","Trains",11.1
+"230",2009,"Austria","Passenger cars",79
+"231",2009,"Austria","Motor coaches, buses and trolley buses",10
+"232",2009,"Poland","Trains",7.4
+"233",2009,"Poland","Passenger cars",74.7
+"234",2009,"Poland","Motor coaches, buses and trolley buses",17.9
+"235",2009,"Portugal","Trains",4.4
+"236",2009,"Portugal","Passenger cars",89.4
+"237",2009,"Portugal","Motor coaches, buses and trolley buses",6.2
+"238",2009,"Romania","Trains",6.2
+"239",2009,"Romania","Passenger cars",76.5
+"240",2009,"Romania","Motor coaches, buses and trolley buses",17.3
+"241",2009,"Slovenia","Trains",2.6
+"242",2009,"Slovenia","Passenger cars",86.7
+"243",2009,"Slovenia","Motor coaches, buses and trolley buses",10.7
+"244",2009,"Slovakia","Trains",6.6
+"245",2009,"Slovakia","Passenger cars",77.6
+"246",2009,"Slovakia","Motor coaches, buses and trolley buses",15.8
+"247",2009,"Finland","Trains",5.1
+"248",2009,"Finland","Passenger cars",84.9
+"249",2009,"Finland","Motor coaches, buses and trolley buses",10
+"250",2009,"Sweden","Trains",8.7
+"251",2009,"Sweden","Passenger cars",84.1
+"252",2009,"Sweden","Motor coaches, buses and trolley buses",7.1
+"253",2009,"United Kingdom","Trains",6.9
+"254",2009,"United Kingdom","Passenger cars",87
+"255",2009,"United Kingdom","Motor coaches, buses and trolley buses",6
+"256",2009,"Norway","Trains",4.7
+"257",2009,"Norway","Passenger cars",88.6
+"258",2009,"Norway","Motor coaches, buses and trolley buses",6.7
+"259",2009,"Switzerland","Trains",17.4
+"260",2009,"Switzerland","Passenger cars",77.5
+"261",2009,"Switzerland","Motor coaches, buses and trolley buses",5.1
+"262",2010,"European Union (current composition)","Trains",7.2
+"263",2010,"European Union (current composition)","Passenger cars",83.4
+"264",2010,"European Union (current composition)","Motor coaches, buses and trolley buses",9.4
+"265",2010,"Belgium","Trains",7.7
+"266",2010,"Belgium","Passenger cars",79.7
+"267",2010,"Belgium","Motor coaches, buses and trolley buses",12.7
+"268",2010,"Bulgaria","Trains",3.6
+"269",2010,"Bulgaria","Passenger cars",80
+"270",2010,"Bulgaria","Motor coaches, buses and trolley buses",16.4
+"271",2010,"Czechia","Trains",7.5
+"272",2010,"Czechia","Passenger cars",73
+"273",2010,"Czechia","Motor coaches, buses and trolley buses",19.5
+"274",2010,"Denmark","Trains",9.8
+"275",2010,"Denmark","Passenger cars",79.7
+"276",2010,"Denmark","Motor coaches, buses and trolley buses",10.5
+"277",2010,"Germany (until 1990 former territory of the FRG)","Trains",8
+"278",2010,"Germany (until 1990 former territory of the FRG)","Passenger cars",86
+"279",2010,"Germany (until 1990 former territory of the FRG)","Motor coaches, buses and trolley buses",6
+"280",2010,"Estonia","Trains",2
+"281",2010,"Estonia","Passenger cars",81.4
+"282",2010,"Estonia","Motor coaches, buses and trolley buses",16.6
+"283",2010,"Ireland","Trains",2.9
+"284",2010,"Ireland","Passenger cars",82.6
+"285",2010,"Ireland","Motor coaches, buses and trolley buses",14.5
+"286",2010,"Greece","Trains",1.1
+"287",2010,"Greece","Passenger cars",81.6
+"288",2010,"Greece","Motor coaches, buses and trolley buses",17.3
+"289",2010,"Spain","Trains",5.4
+"290",2010,"Spain","Passenger cars",82.3
+"291",2010,"Spain","Motor coaches, buses and trolley buses",12.3
+"292",2010,"France","Trains",9.3
+"293",2010,"France","Passenger cars",85.5
+"294",2010,"France","Motor coaches, buses and trolley buses",5.3
+"295",2010,"Croatia","Trains",5.6
+"296",2010,"Croatia","Passenger cars",83.7
+"297",2010,"Croatia","Motor coaches, buses and trolley buses",10.7
+"298",2010,"Italy","Trains",5.5
+"299",2010,"Italy","Passenger cars",81.7
+"300",2010,"Italy","Motor coaches, buses and trolley buses",12.8
+"301",2010,"Latvia","Trains",4.7
+"302",2010,"Latvia","Passenger cars",78.2
+"303",2010,"Latvia","Motor coaches, buses and trolley buses",17.1
+"304",2010,"Lithuania","Trains",0.7
+"305",2010,"Lithuania","Passenger cars",91.7
+"306",2010,"Lithuania","Motor coaches, buses and trolley buses",7.6
+"307",2010,"Luxembourg","Trains",4.5
+"308",2010,"Luxembourg","Passenger cars",83.5
+"309",2010,"Luxembourg","Motor coaches, buses and trolley buses",12.1
+"310",2010,"Hungary","Trains",10
+"311",2010,"Hungary","Passenger cars",68.6
+"312",2010,"Hungary","Motor coaches, buses and trolley buses",21.5
+"313",2010,"Netherlands","Trains",10.2
+"314",2010,"Netherlands","Passenger cars",86.9
+"315",2010,"Netherlands","Motor coaches, buses and trolley buses",2.9
+"316",2010,"Austria","Trains",11
+"317",2010,"Austria","Passenger cars",78.4
+"318",2010,"Austria","Motor coaches, buses and trolley buses",10.6
+"319",2010,"Poland","Trains",7.1
+"320",2010,"Poland","Passenger cars",76.1
+"321",2010,"Poland","Motor coaches, buses and trolley buses",16.8
+"322",2010,"Portugal","Trains",4.4
+"323",2010,"Portugal","Passenger cars",89.1
+"324",2010,"Portugal","Motor coaches, buses and trolley buses",6.5
+"325",2010,"Romania","Trains",5.6
+"326",2010,"Romania","Passenger cars",78
+"327",2010,"Romania","Motor coaches, buses and trolley buses",16.3
+"328",2010,"Slovenia","Trains",2.5
+"329",2010,"Slovenia","Passenger cars",86.8
+"330",2010,"Slovenia","Motor coaches, buses and trolley buses",10.8
+"331",2010,"Slovakia","Trains",6.7
+"332",2010,"Slovakia","Passenger cars",78
+"333",2010,"Slovakia","Motor coaches, buses and trolley buses",15.3
+"334",2010,"Finland","Trains",5.2
+"335",2010,"Finland","Passenger cars",84.9
+"336",2010,"Finland","Motor coaches, buses and trolley buses",9.9
+"337",2010,"Sweden","Trains",8.7
+"338",2010,"Sweden","Passenger cars",84
+"339",2010,"Sweden","Motor coaches, buses and trolley buses",7.3
+"340",2010,"United Kingdom","Trains",7.5
+"341",2010,"United Kingdom","Passenger cars",86.3
+"342",2010,"United Kingdom","Motor coaches, buses and trolley buses",6.2
+"343",2010,"Norway","Trains",4.8
+"344",2010,"Norway","Passenger cars",88.3
+"345",2010,"Norway","Motor coaches, buses and trolley buses",6.9
+"346",2010,"Switzerland","Trains",17.6
+"347",2010,"Switzerland","Passenger cars",77.3
+"348",2010,"Switzerland","Motor coaches, buses and trolley buses",5.1
+"349",2011,"European Union (current composition)","Trains",7.4
+"350",2011,"European Union (current composition)","Passenger cars",83.2
+"351",2011,"European Union (current composition)","Motor coaches, buses and trolley buses",9.4
+"352",2011,"Belgium","Trains",7.7
+"353",2011,"Belgium","Passenger cars",79.5
+"354",2011,"Belgium","Motor coaches, buses and trolley buses",12.8
+"355",2011,"Bulgaria","Trains",3.5
+"356",2011,"Bulgaria","Passenger cars",80.6
+"357",2011,"Bulgaria","Motor coaches, buses and trolley buses",15.9
+"358",2011,"Czechia","Trains",7.6
+"359",2011,"Czechia","Passenger cars",74.4
+"360",2011,"Czechia","Motor coaches, buses and trolley buses",18
+"361",2011,"Denmark","Trains",10
+"362",2011,"Denmark","Passenger cars",80
+"363",2011,"Denmark","Motor coaches, buses and trolley buses",10.1
+"364",2011,"Germany (until 1990 former territory of the FRG)","Trains",8.5
+"365",2011,"Germany (until 1990 former territory of the FRG)","Passenger cars",85.7
+"366",2011,"Germany (until 1990 former territory of the FRG)","Motor coaches, buses and trolley buses",5.8
+"367",2011,"Estonia","Trains",1.9
+"368",2011,"Estonia","Passenger cars",81.8
+"369",2011,"Estonia","Motor coaches, buses and trolley buses",16.3
+"370",2011,"Ireland","Trains",3.8
+"371",2011,"Ireland","Passenger cars",76.8
+"372",2011,"Ireland","Motor coaches, buses and trolley buses",19.4
+"373",2011,"Greece","Trains",0.8
+"374",2011,"Greece","Passenger cars",81.6
+"375",2011,"Greece","Motor coaches, buses and trolley buses",17.6
+"376",2011,"Spain","Trains",5.6
+"377",2011,"Spain","Passenger cars",80.9
+"378",2011,"Spain","Motor coaches, buses and trolley buses",13.5
+"379",2011,"France","Trains",9.3
+"380",2011,"France","Passenger cars",85.3
+"381",2011,"France","Motor coaches, buses and trolley buses",5.4
+"382",2011,"Croatia","Trains",4.9
+"383",2011,"Croatia","Passenger cars",84.6
+"384",2011,"Croatia","Motor coaches, buses and trolley buses",10.5
+"385",2011,"Italy","Trains",5.7
+"386",2011,"Italy","Passenger cars",81.1
+"387",2011,"Italy","Motor coaches, buses and trolley buses",13.2
+"388",2011,"Latvia","Trains",4.9
+"389",2011,"Latvia","Passenger cars",76.2
+"390",2011,"Latvia","Motor coaches, buses and trolley buses",18.9
+"391",2011,"Lithuania","Trains",0.8
+"392",2011,"Lithuania","Passenger cars",90.8
+"393",2011,"Lithuania","Motor coaches, buses and trolley buses",8.3
+"394",2011,"Luxembourg","Trains",4.4
+"395",2011,"Luxembourg","Passenger cars",83.1
+"396",2011,"Luxembourg","Motor coaches, buses and trolley buses",12.5
+"397",2011,"Hungary","Trains",10.2
+"398",2011,"Hungary","Passenger cars",68.3
+"399",2011,"Hungary","Motor coaches, buses and trolley buses",21.5
+"400",2011,"Netherlands","Trains",10.5
+"401",2011,"Netherlands","Passenger cars",86.5
+"402",2011,"Netherlands","Motor coaches, buses and trolley buses",3
+"403",2011,"Austria","Trains",11.3
+"404",2011,"Austria","Passenger cars",78.3
+"405",2011,"Austria","Motor coaches, buses and trolley buses",10.4
+"406",2011,"Poland","Trains",6.9
+"407",2011,"Poland","Passenger cars",77.4
+"408",2011,"Poland","Motor coaches, buses and trolley buses",15.7
+"409",2011,"Portugal","Trains",4.5
+"410",2011,"Portugal","Passenger cars",89.2
+"411",2011,"Portugal","Motor coaches, buses and trolley buses",6.3
+"412",2011,"Romania","Trains",5.3
+"413",2011,"Romania","Passenger cars",78.5
+"414",2011,"Romania","Motor coaches, buses and trolley buses",16.2
+"415",2011,"Slovenia","Trains",2.3
+"416",2011,"Slovenia","Passenger cars",86.6
+"417",2011,"Slovenia","Motor coaches, buses and trolley buses",11
+"418",2011,"Slovakia","Trains",7
+"419",2011,"Slovakia","Passenger cars",77.3
+"420",2011,"Slovakia","Motor coaches, buses and trolley buses",15.7
+"421",2011,"Finland","Trains",5
+"422",2011,"Finland","Passenger cars",85.1
+"423",2011,"Finland","Motor coaches, buses and trolley buses",9.8
+"424",2011,"Sweden","Trains",8.7
+"425",2011,"Sweden","Passenger cars",83.8
+"426",2011,"Sweden","Motor coaches, buses and trolley buses",7.4
+"427",2011,"United Kingdom","Trains",7.8
+"428",2011,"United Kingdom","Passenger cars",86.3
+"429",2011,"United Kingdom","Motor coaches, buses and trolley buses",5.9
+"430",2011,"Norway","Trains",4.5
+"431",2011,"Norway","Passenger cars",88.4
+"432",2011,"Norway","Motor coaches, buses and trolley buses",7
+"433",2011,"Switzerland","Trains",19.6
+"434",2011,"Switzerland","Passenger cars",74.8
+"435",2011,"Switzerland","Motor coaches, buses and trolley buses",5.7
+"436",2012,"European Union (current composition)","Trains",7.7
+"437",2012,"European Union (current composition)","Passenger cars",82.9
+"438",2012,"European Union (current composition)","Motor coaches, buses and trolley buses",9.5
+"439",2012,"Belgium","Trains",7.8
+"440",2012,"Belgium","Passenger cars",79.3
+"441",2012,"Belgium","Motor coaches, buses and trolley buses",12.9
+"442",2012,"Bulgaria","Trains",3.1
+"443",2012,"Bulgaria","Passenger cars",82.1
+"444",2012,"Bulgaria","Motor coaches, buses and trolley buses",14.8
+"445",2012,"Czechia","Trains",8.3
+"446",2012,"Czechia","Passenger cars",74
+"447",2012,"Czechia","Motor coaches, buses and trolley buses",17.7
+"448",2012,"Denmark","Trains",10.2
+"449",2012,"Denmark","Passenger cars",80
+"450",2012,"Denmark","Motor coaches, buses and trolley buses",9.8
+"451",2012,"Germany (until 1990 former territory of the FRG)","Trains",8.9
+"452",2012,"Germany (until 1990 former territory of the FRG)","Passenger cars",85.5
+"453",2012,"Germany (until 1990 former territory of the FRG)","Motor coaches, buses and trolley buses",5.6
+"454",2012,"Estonia","Trains",1.8
+"455",2012,"Estonia","Passenger cars",81.4
+"456",2012,"Estonia","Motor coaches, buses and trolley buses",16.8
+"457",2012,"Ireland","Trains",2.8
+"458",2012,"Ireland","Passenger cars",82.8
+"459",2012,"Ireland","Motor coaches, buses and trolley buses",14.4
+"460",2012,"Greece","Trains",0.7
+"461",2012,"Greece","Passenger cars",81.6
+"462",2012,"Greece","Motor coaches, buses and trolley buses",17.7
+"463",2012,"Spain","Trains",5.6
+"464",2012,"Spain","Passenger cars",80.7
+"465",2012,"Spain","Motor coaches, buses and trolley buses",13.7
+"466",2012,"France","Trains",9.5
+"467",2012,"France","Passenger cars",85.1
+"468",2012,"France","Motor coaches, buses and trolley buses",5.4
+"469",2012,"Croatia","Trains",3.5
+"470",2012,"Croatia","Passenger cars",85.8
+"471",2012,"Croatia","Motor coaches, buses and trolley buses",10.7
+"472",2012,"Italy","Trains",6.4
+"473",2012,"Italy","Passenger cars",78.9
+"474",2012,"Italy","Motor coaches, buses and trolley buses",14.7
+"475",2012,"Latvia","Trains",4.8
+"476",2012,"Latvia","Passenger cars",76.9
+"477",2012,"Latvia","Motor coaches, buses and trolley buses",18.3
+"478",2012,"Lithuania","Trains",0.7
+"479",2012,"Lithuania","Passenger cars",91.9
+"480",2012,"Lithuania","Motor coaches, buses and trolley buses",7.3
+"481",2012,"Luxembourg","Trains",4.6
+"482",2012,"Luxembourg","Passenger cars",83
+"483",2012,"Luxembourg","Motor coaches, buses and trolley buses",12.4
+"484",2012,"Hungary","Trains",10.1
+"485",2012,"Hungary","Passenger cars",67.6
+"486",2012,"Hungary","Motor coaches, buses and trolley buses",22.3
+"487",2012,"Netherlands","Trains",10.7
+"488",2012,"Netherlands","Passenger cars",86.6
+"489",2012,"Netherlands","Motor coaches, buses and trolley buses",2.7
+"490",2012,"Austria","Trains",11.8
+"491",2012,"Austria","Passenger cars",77.9
+"492",2012,"Austria","Motor coaches, buses and trolley buses",10.4
+"493",2012,"Poland","Trains",7.2
+"494",2012,"Poland","Passenger cars",76.8
+"495",2012,"Poland","Motor coaches, buses and trolley buses",16
+"496",2012,"Portugal","Trains",4.1
+"497",2012,"Portugal","Passenger cars",89.5
+"498",2012,"Portugal","Motor coaches, buses and trolley buses",6.4
+"499",2012,"Romania","Trains",4.6
+"500",2012,"Romania","Passenger cars",78.2
+"501",2012,"Romania","Motor coaches, buses and trolley buses",17.2
+"502",2012,"Slovenia","Trains",2.3
+"503",2012,"Slovenia","Passenger cars",86.7
+"504",2012,"Slovenia","Motor coaches, buses and trolley buses",11.1
+"505",2012,"Slovakia","Trains",7.1
+"506",2012,"Slovakia","Passenger cars",77.3
+"507",2012,"Slovakia","Motor coaches, buses and trolley buses",15.6
+"508",2012,"Finland","Trains",5.3
+"509",2012,"Finland","Passenger cars",84.9
+"510",2012,"Finland","Motor coaches, buses and trolley buses",9.8
+"511",2012,"Sweden","Trains",9.1
+"512",2012,"Sweden","Passenger cars",83.6
+"513",2012,"Sweden","Motor coaches, buses and trolley buses",7.3
+"514",2012,"United Kingdom","Trains",8.1
+"515",2012,"United Kingdom","Passenger cars",86.1
+"516",2012,"United Kingdom","Motor coaches, buses and trolley buses",5.8
+"517",2012,"Norway","Trains",4.6
+"518",2012,"Norway","Passenger cars",89.8
+"519",2012,"Norway","Motor coaches, buses and trolley buses",5.6
+"520",2012,"Switzerland","Trains",19.2
+"521",2012,"Switzerland","Passenger cars",75
+"522",2012,"Switzerland","Motor coaches, buses and trolley buses",5.7
+"523",2013,"European Union (current composition)","Trains",7.8
+"524",2013,"European Union (current composition)","Passenger cars",82.4
+"525",2013,"European Union (current composition)","Motor coaches, buses and trolley buses",9.8
+"526",2013,"Belgium","Trains",8.2
+"527",2013,"Belgium","Passenger cars",79.8
+"528",2013,"Belgium","Motor coaches, buses and trolley buses",11.9
+"529",2013,"Bulgaria","Trains",2.9
+"530",2013,"Bulgaria","Passenger cars",83
+"531",2013,"Bulgaria","Motor coaches, buses and trolley buses",14
+"532",2013,"Czechia","Trains",8.5
+"533",2013,"Czechia","Passenger cars",73.6
+"534",2013,"Czechia","Motor coaches, buses and trolley buses",17.9
+"535",2013,"Denmark","Trains",10.3
+"536",2013,"Denmark","Passenger cars",79.9
+"537",2013,"Denmark","Motor coaches, buses and trolley buses",9.8
+"538",2013,"Germany (until 1990 former territory of the FRG)","Trains",8.4
+"539",2013,"Germany (until 1990 former territory of the FRG)","Passenger cars",85.8
+"540",2013,"Germany (until 1990 former territory of the FRG)","Motor coaches, buses and trolley buses",5.7
+"541",2013,"Estonia","Trains",1.6
+"542",2013,"Estonia","Passenger cars",81
+"543",2013,"Estonia","Motor coaches, buses and trolley buses",17.4
+"544",2013,"Ireland","Trains",2.7
+"545",2013,"Ireland","Passenger cars",83.2
+"546",2013,"Ireland","Motor coaches, buses and trolley buses",14.1
+"547",2013,"Greece","Trains",0.9
+"548",2013,"Greece","Passenger cars",81.3
+"549",2013,"Greece","Motor coaches, buses and trolley buses",17.8
+"550",2013,"Spain","Trains",6.1
+"551",2013,"Spain","Passenger cars",80.7
+"552",2013,"Spain","Motor coaches, buses and trolley buses",13.2
+"553",2013,"France","Trains",10.5
+"554",2013,"France","Passenger cars",81.4
+"555",2013,"France","Motor coaches, buses and trolley buses",8.1
+"556",2013,"Croatia","Trains",3.1
+"557",2013,"Croatia","Passenger cars",85.5
+"558",2013,"Croatia","Motor coaches, buses and trolley buses",11.5
+"559",2013,"Italy","Trains",6.3
+"560",2013,"Italy","Passenger cars",79.7
+"561",2013,"Italy","Motor coaches, buses and trolley buses",14.1
+"562",2013,"Latvia","Trains",4.7
+"563",2013,"Latvia","Passenger cars",77.3
+"564",2013,"Latvia","Motor coaches, buses and trolley buses",18
+"565",2013,"Lithuania","Trains",0.8
+"566",2013,"Lithuania","Passenger cars",91.4
+"567",2013,"Lithuania","Motor coaches, buses and trolley buses",7.8
+"568",2013,"Luxembourg","Trains",4.8
+"569",2013,"Luxembourg","Passenger cars",82.8
+"570",2013,"Luxembourg","Motor coaches, buses and trolley buses",12.4
+"571",2013,"Hungary","Trains",10.2
+"572",2013,"Hungary","Passenger cars",67.5
+"573",2013,"Hungary","Motor coaches, buses and trolley buses",22.3
+"574",2013,"Netherlands","Trains",11.3
+"575",2013,"Netherlands","Passenger cars",86
+"576",2013,"Netherlands","Motor coaches, buses and trolley buses",2.7
+"577",2013,"Austria","Trains",12.2
+"578",2013,"Austria","Passenger cars",77.5
+"579",2013,"Austria","Motor coaches, buses and trolley buses",10.3
+"580",2013,"Poland","Trains",6.7
+"581",2013,"Poland","Passenger cars",78
+"582",2013,"Poland","Motor coaches, buses and trolley buses",15.3
+"583",2013,"Portugal","Trains",4
+"584",2013,"Portugal","Passenger cars",89.4
+"585",2013,"Portugal","Motor coaches, buses and trolley buses",6.6
+"586",2013,"Romania","Trains",4.3
+"587",2013,"Romania","Passenger cars",78.9
+"588",2013,"Romania","Motor coaches, buses and trolley buses",16.8
+"589",2013,"Slovenia","Trains",2.3
+"590",2013,"Slovenia","Passenger cars",86.3
+"591",2013,"Slovenia","Motor coaches, buses and trolley buses",11.4
+"592",2013,"Slovakia","Trains",7.1
+"593",2013,"Slovakia","Passenger cars",77.8
+"594",2013,"Slovakia","Motor coaches, buses and trolley buses",15.1
+"595",2013,"Finland","Trains",5.3
+"596",2013,"Finland","Passenger cars",84.9
+"597",2013,"Finland","Motor coaches, buses and trolley buses",9.8
+"598",2013,"Sweden","Trains",9.1
+"599",2013,"Sweden","Passenger cars",83.4
+"600",2013,"Sweden","Motor coaches, buses and trolley buses",7.5
+"601",2013,"United Kingdom","Trains",8.3
+"602",2013,"United Kingdom","Passenger cars",86.1
+"603",2013,"United Kingdom","Motor coaches, buses and trolley buses",5.6
+"604",2013,"Norway","Trains",4.8
+"605",2013,"Norway","Passenger cars",89.8
+"606",2013,"Norway","Motor coaches, buses and trolley buses",5.5
+"607",2013,"Switzerland","Trains",19.3
+"608",2013,"Switzerland","Passenger cars",75
+"609",2013,"Switzerland","Motor coaches, buses and trolley buses",5.7
+"610",2014,"European Union (current composition)","Trains",7.8
+"611",2014,"European Union (current composition)","Passenger cars",82.6
+"612",2014,"European Union (current composition)","Motor coaches, buses and trolley buses",9.6
+"613",2014,"Belgium","Trains",8.2
+"614",2014,"Belgium","Passenger cars",80.4
+"615",2014,"Belgium","Motor coaches, buses and trolley buses",11.4
+"616",2014,"Bulgaria","Trains",2.6
+"617",2014,"Bulgaria","Passenger cars",82.3
+"618",2014,"Bulgaria","Motor coaches, buses and trolley buses",15.1
+"619",2014,"Czechia","Trains",8.4
+"620",2014,"Czechia","Passenger cars",73.1
+"621",2014,"Czechia","Motor coaches, buses and trolley buses",18.5
+"622",2014,"Denmark","Trains",9.7
+"623",2014,"Denmark","Passenger cars",80.6
+"624",2014,"Denmark","Motor coaches, buses and trolley buses",9.7
+"625",2014,"Germany (until 1990 former territory of the FRG)","Trains",8.5
+"626",2014,"Germany (until 1990 former territory of the FRG)","Passenger cars",85.8
+"627",2014,"Germany (until 1990 former territory of the FRG)","Motor coaches, buses and trolley buses",5.8
+"628",2014,"Estonia","Trains",1.9
+"629",2014,"Estonia","Passenger cars",81.6
+"630",2014,"Estonia","Motor coaches, buses and trolley buses",16.5
+"631",2014,"Ireland","Trains",2.9
+"632",2014,"Ireland","Passenger cars",79.8
+"633",2014,"Ireland","Motor coaches, buses and trolley buses",17.3
+"634",2014,"Greece","Trains",0.9
+"635",2014,"Greece","Passenger cars",81.4
+"636",2014,"Greece","Motor coaches, buses and trolley buses",17.7
+"637",2014,"Spain","Trains",6.7
+"638",2014,"Spain","Passenger cars",82.7
+"639",2014,"Spain","Motor coaches, buses and trolley buses",10.6
+"640",2014,"France","Trains",10.3
+"641",2014,"France","Passenger cars",81.6
+"642",2014,"France","Motor coaches, buses and trolley buses",8.1
+"643",2014,"Croatia","Trains",3
+"644",2014,"Croatia","Passenger cars",85.1
+"645",2014,"Croatia","Motor coaches, buses and trolley buses",11.9
+"646",2014,"Italy","Trains",6.2
+"647",2014,"Italy","Passenger cars",80.1
+"648",2014,"Italy","Motor coaches, buses and trolley buses",13.7
+"649",2014,"Latvia","Trains",4
+"650",2014,"Latvia","Passenger cars",79
+"651",2014,"Latvia","Motor coaches, buses and trolley buses",17
+"652",2014,"Lithuania","Trains",1
+"653",2014,"Lithuania","Passenger cars",88.3
+"654",2014,"Lithuania","Motor coaches, buses and trolley buses",10.8
+"655",2014,"Luxembourg","Trains",4.3
+"656",2014,"Luxembourg","Passenger cars",83.6
+"657",2014,"Luxembourg","Motor coaches, buses and trolley buses",12.2
+"658",2014,"Hungary","Trains",9.9
+"659",2014,"Hungary","Passenger cars",67.5
+"660",2014,"Hungary","Motor coaches, buses and trolley buses",22.6
+"661",2014,"Netherlands","Trains",11.8
+"662",2014,"Netherlands","Passenger cars",85.5
+"663",2014,"Netherlands","Motor coaches, buses and trolley buses",2.7
+"664",2014,"Austria","Trains",12.1
+"665",2014,"Austria","Passenger cars",77.6
+"666",2014,"Austria","Motor coaches, buses and trolley buses",10.3
+"667",2014,"Poland","Trains",6.3
+"668",2014,"Poland","Passenger cars",78.2
+"669",2014,"Poland","Motor coaches, buses and trolley buses",15.5
+"670",2014,"Portugal","Trains",4.1
+"671",2014,"Portugal","Passenger cars",89.8
+"672",2014,"Portugal","Motor coaches, buses and trolley buses",6.1
+"673",2014,"Romania","Trains",4.6
+"674",2014,"Romania","Passenger cars",78.5
+"675",2014,"Romania","Motor coaches, buses and trolley buses",16.9
+"676",2014,"Slovenia","Trains",2.1
+"677",2014,"Slovenia","Passenger cars",86.3
+"678",2014,"Slovenia","Motor coaches, buses and trolley buses",11.6
+"679",2014,"Slovakia","Trains",7.3
+"680",2014,"Slovakia","Passenger cars",77.4
+"681",2014,"Slovakia","Motor coaches, buses and trolley buses",15.2
+"682",2014,"Finland","Trains",5
+"683",2014,"Finland","Passenger cars",85.2
+"684",2014,"Finland","Motor coaches, buses and trolley buses",9.8
+"685",2014,"Sweden","Trains",9.2
+"686",2014,"Sweden","Passenger cars",83.5
+"687",2014,"Sweden","Motor coaches, buses and trolley buses",7.3
+"688",2014,"United Kingdom","Trains",8.5
+"689",2014,"United Kingdom","Passenger cars",86.1
+"690",2014,"United Kingdom","Motor coaches, buses and trolley buses",5.4
+"691",2014,"Norway","Trains",4.9
+"692",2014,"Norway","Passenger cars",89.8
+"693",2014,"Norway","Motor coaches, buses and trolley buses",5.4
+"694",2014,"Switzerland","Trains",19.6
+"695",2014,"Switzerland","Passenger cars",74.6
+"696",2014,"Switzerland","Motor coaches, buses and trolley buses",5.8
+"697",2015,"European Union (current composition)","Trains",7.8
+"698",2015,"European Union (current composition)","Passenger cars",82.7
+"699",2015,"European Union (current composition)","Motor coaches, buses and trolley buses",9.5
+"700",2015,"Belgium","Trains",7.8
+"701",2015,"Belgium","Passenger cars",81.2
+"702",2015,"Belgium","Motor coaches, buses and trolley buses",10.9
+"703",2015,"Bulgaria","Trains",2.3
+"704",2015,"Bulgaria","Passenger cars",83.1
+"705",2015,"Bulgaria","Motor coaches, buses and trolley buses",14.6
+"706",2015,"Czechia","Trains",8.6
+"707",2015,"Czechia","Passenger cars",74.1
+"708",2015,"Czechia","Motor coaches, buses and trolley buses",17.3
+"709",2015,"Denmark","Trains",9.3
+"710",2015,"Denmark","Passenger cars",80.9
+"711",2015,"Denmark","Motor coaches, buses and trolley buses",9.8
+"712",2015,"Germany (until 1990 former territory of the FRG)","Trains",8.4
+"713",2015,"Germany (until 1990 former territory of the FRG)","Passenger cars",85.7
+"714",2015,"Germany (until 1990 former territory of the FRG)","Motor coaches, buses and trolley buses",6
+"715",2015,"Estonia","Trains",1.8
+"716",2015,"Estonia","Passenger cars",78.2
+"717",2015,"Estonia","Motor coaches, buses and trolley buses",20
+"718",2015,"Ireland","Trains",3
+"719",2015,"Ireland","Passenger cars",80.4
+"720",2015,"Ireland","Motor coaches, buses and trolley buses",16.7
+"721",2015,"Greece","Trains",1
+"722",2015,"Greece","Passenger cars",81.4
+"723",2015,"Greece","Motor coaches, buses and trolley buses",17.5
+"724",2015,"Spain","Trains",6.7
+"725",2015,"Spain","Passenger cars",81.4
+"726",2015,"Spain","Motor coaches, buses and trolley buses",11.9
+"727",2015,"France","Trains",10.3
+"728",2015,"France","Passenger cars",81.6
+"729",2015,"France","Motor coaches, buses and trolley buses",8
+"730",2015,"Croatia","Trains",3.1
+"731",2015,"Croatia","Passenger cars",85.9
+"732",2015,"Croatia","Motor coaches, buses and trolley buses",11
+"733",2015,"Italy","Trains",6.3
+"734",2015,"Italy","Passenger cars",81.4
+"735",2015,"Italy","Motor coaches, buses and trolley buses",12.3
+"736",2015,"Latvia","Trains",3.5
+"737",2015,"Latvia","Passenger cars",80.7
+"738",2015,"Latvia","Motor coaches, buses and trolley buses",15.8
+"739",2015,"Lithuania","Trains",0.9
+"740",2015,"Lithuania","Passenger cars",89.2
+"741",2015,"Lithuania","Motor coaches, buses and trolley buses",9.9
+"742",2015,"Luxembourg","Trains",4.7
+"743",2015,"Luxembourg","Passenger cars",82.9
+"744",2015,"Luxembourg","Motor coaches, buses and trolley buses",12.4
+"745",2015,"Hungary","Trains",9.5
+"746",2015,"Hungary","Passenger cars",68.2
+"747",2015,"Hungary","Motor coaches, buses and trolley buses",22.3
+"748",2015,"Netherlands","Trains",10.8
+"749",2015,"Netherlands","Passenger cars",86.1
+"750",2015,"Netherlands","Motor coaches, buses and trolley buses",3
+"751",2015,"Austria","Trains",12
+"752",2015,"Austria","Passenger cars",77.8
+"753",2015,"Austria","Motor coaches, buses and trolley buses",10.2
+"754",2015,"Poland","Trains",6.8
+"755",2015,"Poland","Passenger cars",78.5
+"756",2015,"Poland","Motor coaches, buses and trolley buses",14.7
+"757",2015,"Portugal","Trains",4.2
+"758",2015,"Portugal","Passenger cars",89.6
+"759",2015,"Portugal","Motor coaches, buses and trolley buses",6.2
+"760",2015,"Romania","Trains",4.6
+"761",2015,"Romania","Passenger cars",79.9
+"762",2015,"Romania","Motor coaches, buses and trolley buses",15.5
+"763",2015,"Slovenia","Trains",2.1
+"764",2015,"Slovenia","Passenger cars",86.1
+"765",2015,"Slovenia","Motor coaches, buses and trolley buses",11.8
+"766",2015,"Slovakia","Trains",9.4
+"767",2015,"Slovakia","Passenger cars",75.8
+"768",2015,"Slovakia","Motor coaches, buses and trolley buses",14.8
+"769",2015,"Finland","Trains",5.3
+"770",2015,"Finland","Passenger cars",85
+"771",2015,"Finland","Motor coaches, buses and trolley buses",9.7
+"772",2015,"Sweden","Trains",9.5
+"773",2015,"Sweden","Passenger cars",83.2
+"774",2015,"Sweden","Motor coaches, buses and trolley buses",7.3
+"775",2015,"United Kingdom","Trains",8.7
+"776",2015,"United Kingdom","Passenger cars",85.9
+"777",2015,"United Kingdom","Motor coaches, buses and trolley buses",5.4
+"778",2015,"Norway","Trains",4.9
+"779",2015,"Norway","Passenger cars",89.4
+"780",2015,"Norway","Motor coaches, buses and trolley buses",5.7
+"781",2015,"Switzerland","Trains",19.8
+"782",2015,"Switzerland","Passenger cars",74.4
+"783",2015,"Switzerland","Motor coaches, buses and trolley buses",5.9
+"784",2016,"European Union (current composition)","Trains",7.7
+"785",2016,"European Union (current composition)","Passenger cars",82.9
+"786",2016,"European Union (current composition)","Motor coaches, buses and trolley buses",9.4
+"787",2016,"Belgium","Trains",7.7
+"788",2016,"Belgium","Passenger cars",81.8
+"789",2016,"Belgium","Motor coaches, buses and trolley buses",10.5
+"790",2016,"Bulgaria","Trains",2.2
+"791",2016,"Bulgaria","Passenger cars",83.7
+"792",2016,"Bulgaria","Motor coaches, buses and trolley buses",14.1
+"793",2016,"Czechia","Trains",8.9
+"794",2016,"Czechia","Passenger cars",74
+"795",2016,"Czechia","Motor coaches, buses and trolley buses",17.1
+"796",2016,"Denmark","Trains",8.6
+"797",2016,"Denmark","Passenger cars",81.6
+"798",2016,"Denmark","Motor coaches, buses and trolley buses",9.8
+"799",2016,"Germany (until 1990 former territory of the FRG)","Trains",8.6
+"800",2016,"Germany (until 1990 former territory of the FRG)","Passenger cars",85.7
+"801",2016,"Germany (until 1990 former territory of the FRG)","Motor coaches, buses and trolley buses",5.8
+"802",2016,"Estonia","Trains",2
+"803",2016,"Estonia","Passenger cars",80.1
+"804",2016,"Estonia","Motor coaches, buses and trolley buses",17.9
+"805",2016,"Ireland","Trains",2.9
+"806",2016,"Ireland","Passenger cars",79.9
+"807",2016,"Ireland","Motor coaches, buses and trolley buses",17.2
+"808",2016,"Greece","Trains",1
+"809",2016,"Greece","Passenger cars",81.9
+"810",2016,"Greece","Motor coaches, buses and trolley buses",17.1
+"811",2016,"Spain","Trains",6.6
+"812",2016,"Spain","Passenger cars",81.6
+"813",2016,"Spain","Motor coaches, buses and trolley buses",11.8
+"814",2016,"France","Trains",9.7
+"815",2016,"France","Passenger cars",81.5
+"816",2016,"France","Motor coaches, buses and trolley buses",8.8
+"817",2016,"Croatia","Trains",2.7
+"818",2016,"Croatia","Passenger cars",85
+"819",2016,"Croatia","Motor coaches, buses and trolley buses",12.3
+"820",2016,"Italy","Trains",6.1
+"821",2016,"Italy","Passenger cars",81.9
+"822",2016,"Italy","Motor coaches, buses and trolley buses",12
+"823",2016,"Latvia","Trains",3.4
+"824",2016,"Latvia","Passenger cars",81.5
+"825",2016,"Latvia","Motor coaches, buses and trolley buses",15.1
+"826",2016,"Lithuania","Trains",1
+"827",2016,"Lithuania","Passenger cars",89.9
+"828",2016,"Lithuania","Motor coaches, buses and trolley buses",9.1
+"829",2016,"Luxembourg","Trains",4.6
+"830",2016,"Luxembourg","Passenger cars",83.1
+"831",2016,"Luxembourg","Motor coaches, buses and trolley buses",12.3
+"832",2016,"Hungary","Trains",9.3
+"833",2016,"Hungary","Passenger cars",69
+"834",2016,"Hungary","Motor coaches, buses and trolley buses",21.7
+"835",2016,"Netherlands","Trains",11
+"836",2016,"Netherlands","Passenger cars",86
+"837",2016,"Netherlands","Motor coaches, buses and trolley buses",3
+"838",2016,"Austria","Trains",12.1
+"839",2016,"Austria","Passenger cars",77.7
+"840",2016,"Austria","Motor coaches, buses and trolley buses",10.2
+"841",2016,"Poland","Trains",7.3
+"842",2016,"Poland","Passenger cars",78.5
+"843",2016,"Poland","Motor coaches, buses and trolley buses",14.2
+"844",2016,"Portugal","Trains",4.2
+"845",2016,"Portugal","Passenger cars",89.1
+"846",2016,"Portugal","Motor coaches, buses and trolley buses",6.7
+"847",2016,"Romania","Trains",4.2
+"848",2016,"Romania","Passenger cars",80.1
+"849",2016,"Romania","Motor coaches, buses and trolley buses",15.7
+"850",2016,"Slovenia","Trains",2
+"851",2016,"Slovenia","Passenger cars",86.3
+"852",2016,"Slovenia","Motor coaches, buses and trolley buses",11.8
+"853",2016,"Slovakia","Trains",9.4
+"854",2016,"Slovakia","Passenger cars",74.8
+"855",2016,"Slovakia","Motor coaches, buses and trolley buses",15.8
+"856",2016,"Finland","Trains",5.6
+"857",2016,"Finland","Passenger cars",82.5
+"858",2016,"Finland","Motor coaches, buses and trolley buses",11.9
+"859",2016,"Sweden","Trains",9.3
+"860",2016,"Sweden","Passenger cars",83.5
+"861",2016,"Sweden","Motor coaches, buses and trolley buses",7.2
+"862",2016,"United Kingdom","Trains",8.8
+"863",2016,"United Kingdom","Passenger cars",86.5
+"864",2016,"United Kingdom","Motor coaches, buses and trolley buses",4.6
+"865",2016,"Norway","Trains",5.1
+"866",2016,"Norway","Passenger cars",89
+"867",2016,"Norway","Motor coaches, buses and trolley buses",5.9
+"868",2016,"Switzerland","Trains",19.8
+"869",2016,"Switzerland","Passenger cars",74.3
+"870",2016,"Switzerland","Motor coaches, buses and trolley buses",5.9

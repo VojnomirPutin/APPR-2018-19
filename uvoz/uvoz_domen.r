@@ -28,12 +28,14 @@ smrti_avti_bus <- read.csv('podatki/smrti_avti_busi.csv', encoding = 'windows-12
 smrti_avti_bus <- smrti_avti_bus[,-6]
 smrti_avti_bus <- smrti_avti_bus[,-3]
 
+smrti_avti_bus <- smrti_avti_bus %>% spread(Prevozno_sredstvo, Stevilo)
+
 
 #Tabela 4
 
 smrti_vlak <- read.csv('podatki/smrti_vlak.csv', encoding = 'windows-1250',
                            col.names = c('Leto', 'Drzava', 'unit', 'accident', 'victim',
-                                         'pers_inv', 'Stevilo', 'krnekaj'), na = c(':', ''))
+                                         'pers_inv', 'Vlak', 'krnekaj'), na = c(':', ''))
 smrti_vlak <- smrti_vlak[,-8]
 smrti_vlak <- smrti_vlak[,-6]
 smrti_vlak <- smrti_vlak[,-5]
@@ -64,12 +66,14 @@ bdppc <- bdppc[,-3]
 
 #Tabela 7
 
-#smrti <- left_join(smrti_avti_bus, smrti_vlak, by="Stevilo")
-#test <- spread(smrti_avti_bus, convert = TRUE)
+smrti <- left_join(smrti_avti_bus, smrti_vlak)
+names(smrti) <- c("Leto", "Drzava", 'Avtobus', 'Avto', 'Vlak')
 
 
+#Shranjevanje tidy tabel
 
-
-
-
-
+write.csv(bdppc, file = "podatki/tidy/tidy_bdppc.csv")
+write.csv(delez_ljudi, file = "podatki/tidy/tidy_delez_ljudi.csv")
+write.csv(delez_tovora, file = "podatki/tidy/tidy_delez_tovora.csv")
+write.csv(greenhouse_gas, file = "podatki/tidy/tidy_greenhouse_gas.csv")
+write.csv(smrti, file = "podatki/tidy/tidy_smrti.csv")
