@@ -25,7 +25,11 @@ delovno.aktivno.prebivalstvo <- read.csv2(file = 'podatki/delovno_akti_preb.csv'
                                           blank.lines.skip = TRUE, skipNul = FALSE, na = c('-', '', ' '),
                                           col.names = c('Regija', 'Leto', 'Spol', 'Delovno aktivno prebivalstvo po prebivaliscu',
                                                         'Registrirane brezposelne osebe', 'Stopnja registrirane brezposelnosti'))
-test1 <- myspread(delovno.aktivno.prebivalstvo, Spol, c(Delovno.aktivno.prebivalstvo.po.prebivaliscu, Registrirane.brezposelne.osebe, Stopnja.registrirane.brezposelnosti) )
+
+
+#test1 <- myspread(delovno.aktivno.prebivalstvo, Spol, c(Delovno.aktivno.prebivalstvo.po.prebivaliscu, Registrirane.brezposelne.osebe, Stopnja.registrirane.brezposelnosti) )
+
+
 delovno.aktivno.prebivalstvo <- delovno.aktivno.prebivalstvo %>% fill(1:2) %>% filter(Spol != ' ')
 #spread(delovno.aktivno.prebivalstvo, Spol, Delovno.aktivno.prebivalstvo.po.prebivaliscu, Registrirane.brezposelne.osebe, Stopnja.registrirane.brezposelnosti)
 
@@ -44,5 +48,21 @@ povprecne.mesecne.place.dejavnosti <- povprecne.mesecne.place.dejavnosti %>% fil
 prosta.delovna.mesta <- read.csv2(file = 'podatki/statistika_prostih_dmest.csv', header= TRUE, skip = 2, sep = ';', dec = '.', fill = TRUE,
                                   strip.white = TRUE, fileEncoding = 'Windows-1250', nrows = 171, blank.lines.skip = TRUE, skipNul = FALSE, na = c('-', '', ' '),
                                   col.names = c('Regija', 'Leto', 'Stevilo prostih delovnih mest', 'Stevilo zasedenih delovnih mest', 'Stopnja prostih delovnih mest', 'Stopnja prostih delovnihi mest 10+'))
+
+
 prosta.delovna.mesta <- prosta.delovna.mesta %>% fill(1:2)%>% filter(Stevilo.prostih.delovnih.mest != '')
+
+
+# 4. tabela: stevilo zaposlenih glede na plačilni razred, neto placa
+
+placilni.razredi <- read.csv2(file = 'podatki/placilni_razredi.csv', header = TRUE, sep = ';', dec = '.', fill = TRUE, strip.white =  TRUE, fileEncoding = 'Windows-1250',
+                              blank.lines.skip = TRUE, skipNul = FALSE, na = c('-', '', ' '), skip = 3, nrows = 2747,
+                              col.names = c('Regija', 'Placilni razred', 'Leto', 'Skupaj.spol', 'Moski', 'Zenske'))
+placilni.razredi <- placilni.razredi %>% fill(1:2) %>% filter(Skupaj.spol != ' ')
+
+
+write.csv2(delovno.aktivno.prebivalstvo,'podatki/tidy_delovno_aktivno_prebivalstvo.csv', fileEncoding = 'UTF-8')
+write.csv2(povprecne.mesecne.place.dejavnosti, 'podatki/tidy_povprecne_mesecne_place.csv', fileEncoding = 'UTF-8')
+write.csv2(prosta.delovna.mesta,'podatki/tidy_prosta_delovna_mesta.csv', fileEncoding = 'UTF-8')
+write.csv2(placilni.razredi,'podatki/tidy_placilni_razredi.csv', fileEncoding = 'UTF-8')
 
