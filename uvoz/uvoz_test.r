@@ -2,22 +2,47 @@
 #sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
 #
+library(dplyr)
+library(tidyr)
+
+
+myspread <- function(df, key, value) {
+  # quote key
+  keyq <- rlang::enquo(key)
+  # break value vector into quotes
+  valueq <- rlang::enquo(value)
+  s <- rlang::quos(!!valueq)
+  df %>% gather(variable, value, !!!s) %>%
+    unite(temp, !!keyq, variable) %>%
+    spread(temp, value)
+}
 
 # 1. tabela: delovno aktivno prebivalstvo
-#stolpci <- c('2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016')
-delovno.aktivno.prebivalstvo <- read.csv2(file = 'podatki/delovno_aktivno_prebivalstvo_1.csv', skip = 3,
-                                          header = TRUE, sep = ';', dec = '.', fill = TRUE, strip.white = TRUE,
-                                          fileEncoding = 'Windows-1250', nrows = 53, check.names = TRUE, 
-                                          blank.lines.skip = TRUE, skipNul = FALSE, na = c('-', ''))
 
-
-
+delovno.aktivno.prebivalstvo <- read.csv2(file = 'podatki/delovno_akti_preb.csv', header = TRUE, skip = 4,
+                                          sep = ';', dec = '.', fill = TRUE, strip.white = TRUE,
+                                          fileEncoding = 'Windows-1250', nrows = 694, check.names = TRUE, 
+                                          blank.lines.skip = TRUE, skipNul = FALSE, na = c('-', '', ' '),
+                                          col.names = c('Regija', 'Leto', 'Spol', 'Delovno aktivno prebivalstvo po prebivaliscu',
+                                                        'Registrirane brezposelne osebe', 'Stopnja registrirane brezposelnosti'))
+test1 <- myspread(delovno.aktivno.prebivalstvo, Spol, c(Delovno.aktivno.prebivalstvo.po.prebivaliscu, Registrirane.brezposelne.osebe, Stopnja.registrirane.brezposelnosti) )
+delovno.aktivno.prebivalstvo <- delovno.aktivno.prebivalstvo %>% fill(1:2) %>% filter(Spol != ' ')
+#spread(delovno.aktivno.prebivalstvo, Spol, Delovno.aktivno.prebivalstvo.po.prebivaliscu, Registrirane.brezposelne.osebe, Stopnja.registrirane.brezposelnosti)
 
 # 2. tabela: povprecne mesecne place po deajvnostih
-povprecne.mesecne.place.dejavnosti <- read.csv2(file = 'podatki/povprecne_mesecne_place_dejavnosti.csv', skip = 3, 
+povprecne.mesecne.place.dejavnosti <- read.csv2(file = 'podatki/mesec_place_dejavnosti.csv', skip = 4, 
                                                 header = TRUE, sep = ';', dec = '.', fill = TRUE, strip.white = TRUE, 
                                                 encoding = 'Windows-1250', nrows = 3134, check.names = TRUE,
-                                                skipNul = FALSE, na = c('-', ''))
+                                                skipNul = FALSE, na = c('-', ' '), col.names = c('Regija', 'Dejavnost', 'Leto', 'Plača za obodbje v EUR',
+                                                                                                 'Plača za delano uro v obdobju v EUR', 'Indeks spremembe plače glede na prejšnje obdobje'))
 
-                                          
-                                          
+
+povprecne.mesecne.place.dejavnosti <- povprecne.mesecne.place.dejavnosti %>% fill(1:3) %>% filter(Plača.za.obodbje.v.EUR != '')
+
+
+# 3. tabela: Statistika prostih delovnih mest
+prosta.delovna.mesta <- read.csv2(file = 'podatki/statistika_prostih_dmest.csv', header= TRUE, skip = 2, sep = ';', dec = '.', fill = TRUE,
+                                  strip.white = TRUE, fileEncoding = 'Windows-1250', nrows = 171, blank.lines.skip = TRUE, skipNul = FALSE, na = c('-', '', ' '),
+                                  col.names = c('Regija', 'Leto', 'Stevilo prostih delovnih mest', 'Stevilo zasedenih delovnih mest', 'Stopnja prostih delovnih mest', 'Stopnja prostih delovnihi mest 10+'))
+prosta.delovna.mesta <- prosta.delovna.mesta %>% fill(1:2)%>% filter(Stevilo.prostih.delovnih.mest != '')
+
