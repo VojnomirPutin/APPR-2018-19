@@ -6,16 +6,16 @@ library(dplyr)
 library(tidyr)
 
 
-myspread <- function(df, key, value) {
-  # quote key
-  keyq <- rlang::enquo(key)
-  # break value vector into quotes
-  valueq <- rlang::enquo(value)
-  s <- rlang::quos(!!valueq)
-  df %>% gather(variable, value, !!!s) %>%
-    unite(temp, !!keyq, variable) %>%
-    spread(temp, value)
-}
+# myspread <- function(df, key, value) {
+#   # quote key
+#   keyq <- rlang::enquo(key)
+#   # break value vector into quotes
+#   valueq <- rlang::enquo(value)
+#   s <- rlang::quos(!!valueq)
+#   df %>% gather(variable, value, !!!s) %>%
+#     unite(temp, !!keyq, variable) %>%
+#     spread(temp, value)
+# }
 
 # 1. tabela: delovno aktivno prebivalstvo
 
@@ -59,6 +59,8 @@ placilni.razredi <- read.csv2(file = 'podatki/placilni_razredi.csv', header = TR
                               blank.lines.skip = TRUE, skipNul = FALSE, na = c('-', '', ' '), skip = 3, nrows = 2747,
                               col.names = c('Regija', 'Placilni razred', 'Leto', 'Skupaj.spol', 'Moski', 'Zenske'))
 placilni.razredi <- placilni.razredi %>% fill(1:2) %>% filter(Skupaj.spol != ' ')
+placilni.razredi <- placilni.razredi[,-4]
+placilni.razredi <- placilni.razredi %>% gather(Spol, Neto.placa, 4:5)
 
 
 write.csv2(delovno.aktivno.prebivalstvo,'podatki/tidy_delovno_aktivno_prebivalstvo.csv', fileEncoding = 'UTF-8')
