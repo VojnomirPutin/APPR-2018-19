@@ -54,14 +54,13 @@ greenhouse_gas <- greenhouse_gas[,-5]
 greenhouse_gas <- greenhouse_gas[,-4]
 greenhouse_gas <- greenhouse_gas[,-3]
 
-greenhouse_gas[,3] <- as.numeric(greenhouse_gas[,3])
-
 greenhouse_gas <- greenhouse_gas %>% filter(Drzava != "European Union (current composition)")
+
 
 #Tabela 6
 
-bdppc <- read.csv('podatki/bdppc.csv', encoding = 'windows-1250',
-                           col.names = c('Leto', 'Drzava', 'unit', 'na', 'Kolicina(€)',
+bdppc <- read.csv('podatki/bdppc.csv', encoding = 'windows-1250', dec = '.',
+                           col.names = c('Leto', 'Drzava', 'unit', 'na', 'Kolicina_eur',
                                          'krnekaj'), na = c(':', ''))
 bdppc <- bdppc[,-6]
 bdppc <- bdppc[,-4]
