@@ -4,6 +4,7 @@
 #
 library(dplyr)
 library(tidyr)
+library(readr)
 
 
 # myspread <- function(df, key, value) {
@@ -33,24 +34,35 @@ delovno.aktivno.prebivalstvo <- read.csv2(file = 'podatki/delovno_akti_preb.csv'
 delovno.aktivno.prebivalstvo <- delovno.aktivno.prebivalstvo %>% fill(1:2) %>% filter(Spol != ' ')
 #spread(delovno.aktivno.prebivalstvo, Spol, Delovno.aktivno.prebivalstvo.po.prebivaliscu, Registrirane.brezposelne.osebe, Stopnja.registrirane.brezposelnosti)
 
+
+
 # 2. tabela: povprecne mesecne place po deajvnostih
 povprecne.mesecne.place.dejavnosti <- read.csv2(file = 'podatki/mesec_place_dejavnosti.csv', skip = 4, 
                                                 header = TRUE, sep = ';', dec = '.', fill = TRUE, strip.white = TRUE, 
                                                 encoding = 'Windows-1250', nrows = 3134, check.names = TRUE,
-                                                skipNul = FALSE, na = c('-', ' '), col.names = c('Regija', 'Dejavnost', 'Leto', 'Plača za obodbje v EUR',
+                                                skipNul = FALSE, na = c('-', ' ', 'z'), col.names = c('Regija', 'Dejavnost', 'Leto', 'Plača za obodbje v EUR',
                                                                                                  'Plača za delano uro v obdobju v EUR', 'Indeks spremembe plače glede na prejšnje obdobje'))
 
 
 povprecne.mesecne.place.dejavnosti <- povprecne.mesecne.place.dejavnosti %>% fill(1:3) %>% filter(Plača.za.obodbje.v.EUR != '')
 
 
-# 3. tabela: Statistika prostih delovnih mest
-prosta.delovna.mesta <- read.csv2(file = 'podatki/statistika_prostih_dmest.csv', header= TRUE, skip = 2, sep = ';', dec = '.', fill = TRUE,
+# 3. tabela: Statistika prostih delovnih mest po regijah
+prosta.delovna.mesta <- read.csv2(file = 'podatki/statistika_prostih_dmest.csv', header= TRUE, skip = 15, sep = ';', dec = '.', fill = TRUE,
                                   strip.white = TRUE, fileEncoding = 'Windows-1250', nrows = 171, blank.lines.skip = TRUE, skipNul = FALSE, na = c('-', '', ' '),
                                   col.names = c('Regija', 'Leto', 'Stevilo prostih delovnih mest', 'Stevilo zasedenih delovnih mest', 'Stopnja prostih delovnih mest', 'Stopnja prostih delovnihi mest 10+'))
 
 
 prosta.delovna.mesta <- prosta.delovna.mesta %>% fill(1:2)%>% filter(Stevilo.prostih.delovnih.mest != '')
+prosta.delovna.mesta <- prosta.delovna.mesta[,-6]
+
+#3,5. tabela : Statistika prostih delovnih e+mest samo Slovenija
+prosta.delovna.mesta.slovenija <- read.csv2(file = 'podatki/statistika_prostih_dmest.csv', header= TRUE, skip = 2, sep = ';', dec = '.', fill = TRUE,
+                                  strip.white = TRUE, fileEncoding = 'Windows-1250', nrows = 12, blank.lines.skip = TRUE, skipNul = FALSE, na = c('-', '', ' '),
+                                  col.names = c('Regija', 'Leto', 'Stevilo prostih delovnih mest', 'Stevilo zasedenih delovnih mest', 'Stopnja prostih delovnih mest', 'Stopnja prostih delovnihi mest 10+'))
+
+prosta.delovna.mesta.slovenija <- prosta.delovna.mesta.slovenija %>% fill(1:2)%>% filter(Stevilo.prostih.delovnih.mest != '')
+prosta.delovna.mesta.slovenija <- prosta.delovna.mesta.slovenija[,-6]
 
 
 # 4. tabela: stevilo zaposlenih glede na plačilni razred, neto placa
@@ -62,9 +74,18 @@ placilni.razredi <- placilni.razredi %>% fill(1:2) %>% filter(Skupaj.spol != ' '
 placilni.razredi <- placilni.razredi[,-4]
 placilni.razredi <- placilni.razredi %>% gather(Spol, Neto.placa, 4:5)
 
+#5. tabela: prebivalstvo po regijah za statistično primerjavo
+
+prebivalstvo_po_regijah <- read.csv2(file = 'podatki/prebivalstvo_po_regijah.csv', header = FALSE, skip = 1, fill = TRUE, sep = ';', dec = '.', strip.white = TRUE, 
+                                     fileEncoding =  'Windows-1250', blank.lines.skip = TRUE, skipNul = FALSE, na = c('-', '', ' '), nrows = 1547, col.names = c('Regija','Spol', 'Leto', 'Ime', 'Prebivalstvo'))
+prebivalstvo_po_regijah <- prebivalstvo_po_regijah[,-4]
+prebivalstvo_po_regijah <- prebivalstvo_po_regijah%>%fill(1:3)%>%filter(Prebivalstvo != '')
+
+
 
 write.csv2(delovno.aktivno.prebivalstvo,'podatki/tidy_delovno_aktivno_prebivalstvo.csv', fileEncoding = 'UTF-8')
 write.csv2(povprecne.mesecne.place.dejavnosti, 'podatki/tidy_povprecne_mesecne_place.csv', fileEncoding = 'UTF-8')
 write.csv2(prosta.delovna.mesta,'podatki/tidy_prosta_delovna_mesta.csv', fileEncoding = 'UTF-8')
 write.csv2(placilni.razredi,'podatki/tidy_placilni_razredi.csv', fileEncoding = 'UTF-8')
+write.csv2(prebivalstvo_po_regijah,'podatki/tidy_prebivalstvo_po_regijah', fileEncoding = 'UTF-8')
 
