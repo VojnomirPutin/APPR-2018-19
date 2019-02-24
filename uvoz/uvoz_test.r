@@ -7,16 +7,6 @@ library(tidyr)
 library(readr)
 
 
-# myspread <- function(df, key, value) {
-#   # quote key
-#   keyq <- rlang::enquo(key)
-#   # break value vector into quotes
-#   valueq <- rlang::enquo(value)
-#   s <- rlang::quos(!!valueq)
-#   df %>% gather(variable, value, !!!s) %>%
-#     unite(temp, !!keyq, variable) %>%
-#     spread(temp, value)
-# }
 
 # 1. tabela: delovno aktivno prebivalstvo
 
@@ -31,7 +21,15 @@ delovno.aktivno.prebivalstvo <- read.csv2(file = 'podatki/delovno_akti_preb.csv'
 #test1 <- myspread(delovno.aktivno.prebivalstvo, Spol, c(Delovno.aktivno.prebivalstvo.po.prebivaliscu, Registrirane.brezposelne.osebe, Stopnja.registrirane.brezposelnosti) )
 
 
-delovno.aktivno.prebivalstvo <- delovno.aktivno.prebivalstvo %>% fill(1:2) %>% filter(Spol != ' ')
+delovno.aktivno.prebivalstvo <- delovno.aktivno.prebivalstvo %>% fill(1:2) %>% filter(Spol != ' ')#%>%filter(Spol != 'Spol - SKUPAJ')
+delovno.aktivno.prebivalstvo <- delovno.aktivno.prebivalstvo %>% filter(Spol != 'Moški')
+delovno.aktivno.prebivalstvo <- delovno.aktivno.prebivalstvo %>% filter(Spol != 'Ženske')
+delovno.aktivno.prebivalstvo <- delovno.aktivno.prebivalstvo[,-3]
+delovno.aktivno.prebivalstvo <- delovno.aktivno.prebivalstvo%>%filter(Regija != 'SLOVENIJA')
+delovno.aktivno.prebivalstvo$Regija <- gsub('^Posavska.*', 'Spodnjeposavska', delovno.aktivno.prebivalstvo$Regija)
+delovno.aktivno.prebivalstvo$Regija <- gsub('^Primorsko-notranjska.*', 'Notranjsko-kraška', delovno.aktivno.prebivalstvo$Regija)
+
+
 #spread(delovno.aktivno.prebivalstvo, Spol, Delovno.aktivno.prebivalstvo.po.prebivaliscu, Registrirane.brezposelne.osebe, Stopnja.registrirane.brezposelnosti)
 
 
@@ -73,13 +71,28 @@ placilni.razredi <- read.csv2(file = 'podatki/placilni_razredi.csv', header = TR
 placilni.razredi <- placilni.razredi %>% fill(1:2) %>% filter(Skupaj.spol != ' ')
 placilni.razredi <- placilni.razredi[,-4]
 placilni.razredi <- placilni.razredi %>% gather(Spol, Neto.placa, 4:5)
+placilni.razredi <- placilni.razredi%>%filter(Placilni.razred != 'Razred neto - SKUPAJ')
+placilni.razredi$Leto <- gsub('^2017.*', '2017', placilni.razredi$Leto)
 
 #5. tabela: prebivalstvo po regijah za statistično primerjavo
 
 prebivalstvo_po_regijah <- read.csv2(file = 'podatki/prebivalstvo_po_regijah.csv', header = FALSE, skip = 1, fill = TRUE, sep = ';', dec = '.', strip.white = TRUE, 
                                      fileEncoding =  'Windows-1250', blank.lines.skip = TRUE, skipNul = FALSE, na = c('-', '', ' '), nrows = 1547, col.names = c('Regija','Spol', 'Leto', 'Ime', 'Prebivalstvo'))
 prebivalstvo_po_regijah <- prebivalstvo_po_regijah[,-4]
-prebivalstvo_po_regijah <- prebivalstvo_po_regijah%>%fill(1:3)%>%filter(Prebivalstvo != '')
+prebivalstvo_po_regijah <- prebivalstvo_po_regijah%>%fill(1:3)%>%filter(Prebivalstvo != '')%>%filter(Regija != 'SLOVENIJA')
+grp<-group_by(prebivalstvo_po_regijah, Regija, Leto)
+prebivalstvo_po_regijah <- summarise(grp, Prebivalstvo=sum(Prebivalstvo, na.rm=TRUE))
+
+#6. tabela: indeks izbirčnosti
+indeks_izbircnosti <- left_join(filter(delovno.aktivno.prebivalstvo, Regija != 'SLOVENIJA'), prosta.delovna.mesta, by=c('Regija', 'Leto'))
+indeks_izbircnosti <- indeks_izbircnosti[,-8]
+indeks_izbircnosti <- indeks_izbircnosti[,-7]
+indeks_izbircnosti <- indeks_izbircnosti[,-5]
+indeks_izbircnosti <- indeks_izbircnosti[,-3]
+indeks_izbircnosti <- indeks_izbircnosti%>%filter(Stevilo.prostih.delovnih.mest != '')
+indeks_izbircnosti <- transform(indeks_izbircnosti, Indeks=(Stevilo.prostih.delovnih.mest/Registrirane.brezposelne.osebe))
+indeksi <- indeks_izbircnosti[c(-3,-4)]
+
 
 
 
