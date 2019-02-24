@@ -25,9 +25,11 @@ delovno.aktivno.prebivalstvo <- delovno.aktivno.prebivalstvo %>% fill(1:2) %>% f
 delovno.aktivno.prebivalstvo <- delovno.aktivno.prebivalstvo %>% filter(Spol != 'Moški')
 delovno.aktivno.prebivalstvo <- delovno.aktivno.prebivalstvo %>% filter(Spol != 'Ženske')
 delovno.aktivno.prebivalstvo <- delovno.aktivno.prebivalstvo[,-3]
+brezposelni.Slovenija <- filter(delovno.aktivno.prebivalstvo, Regija == 'SLOVENIJA')
 delovno.aktivno.prebivalstvo <- delovno.aktivno.prebivalstvo%>%filter(Regija != 'SLOVENIJA')
 delovno.aktivno.prebivalstvo$Regija <- gsub('^Posavska.*', 'Spodnjeposavska', delovno.aktivno.prebivalstvo$Regija)
 delovno.aktivno.prebivalstvo$Regija <- gsub('^Primorsko-notranjska.*', 'Notranjsko-kraška', delovno.aktivno.prebivalstvo$Regija)
+brezposelni.Slovenija<- brezposelni.Slovenija[c(-5,-3, -1)]
 
 
 #spread(delovno.aktivno.prebivalstvo, Spol, Delovno.aktivno.prebivalstvo.po.prebivaliscu, Registrirane.brezposelne.osebe, Stopnja.registrirane.brezposelnosti)
@@ -79,9 +81,14 @@ placilni.razredi$Leto <- gsub('^2017.*', '2017', placilni.razredi$Leto)
 prebivalstvo_po_regijah <- read.csv2(file = 'podatki/prebivalstvo_po_regijah.csv', header = FALSE, skip = 1, fill = TRUE, sep = ';', dec = '.', strip.white = TRUE, 
                                      fileEncoding =  'Windows-1250', blank.lines.skip = TRUE, skipNul = FALSE, na = c('-', '', ' '), nrows = 1547, col.names = c('Regija','Spol', 'Leto', 'Ime', 'Prebivalstvo'))
 prebivalstvo_po_regijah <- prebivalstvo_po_regijah[,-4]
-prebivalstvo_po_regijah <- prebivalstvo_po_regijah%>%fill(1:3)%>%filter(Prebivalstvo != '')%>%filter(Regija != 'SLOVENIJA')
+prebivalstvo_po_regijah <- prebivalstvo_po_regijah%>%fill(1:3)%>%filter(Prebivalstvo != '')
+prebivalstvo.slovenija <- filter(prebivalstvo_po_regijah, Regija == 'SLOVENIJA')
+prebivalstvo_po_regijah <- prebivalstvo_po_regijah %>%filter(Regija != 'SLOVENIJA')
 grp<-group_by(prebivalstvo_po_regijah, Regija, Leto)
 prebivalstvo_po_regijah <- summarise(grp, Prebivalstvo=sum(Prebivalstvo, na.rm=TRUE))
+grp1 <- group_by(prebivalstvo.slovenija,Regija, Leto)
+prebivalstvo.slovenija <- summarise(grp1, Prebivalstvo=sum(Prebivalstvo, na.rm=TRUE))
+prebivalstvo.slovenija <- prebivalstvo.slovenija[,-1]
 
 #6. tabela: indeks izbirčnosti
 indeks_izbircnosti <- left_join(filter(delovno.aktivno.prebivalstvo, Regija != 'SLOVENIJA'), prosta.delovna.mesta, by=c('Regija', 'Leto'))

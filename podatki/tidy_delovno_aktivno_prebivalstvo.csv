@@ -1,170 +1,157 @@
-"";"Regija";"Leto";"Spol";"Delovno.aktivno.prebivalstvo.po.prebivaliscu";"Registrirane.brezposelne.osebe";"Stopnja.registrirane.brezposelnosti"
-"1";"SLOVENIJA";2005;"Spol - SKUPAJ";805637;93353;10,4
-"2";"SLOVENIJA";2006;"Spol - SKUPAJ";812486;95204;10,5
-"3";"SLOVENIJA";2007;"Spol - SKUPAJ";838005;79969;8,7
-"4";"SLOVENIJA";2008;"Spol - SKUPAJ";867342;69238;7,4
-"5";"SLOVENIJA";2009;"Spol - SKUPAJ";872246;73911;7,8
-"6";"SLOVENIJA";2010;"Spol - SKUPAJ";836081;99591;10,6
-"7";"SLOVENIJA";2011;"Spol - SKUPAJ";820866;115132;12,3
-"8";"SLOVENIJA";2012;"Spol - SKUPAJ";811568;115965;12,5
-"9";"SLOVENIJA";2013;"Spol - SKUPAJ";788711;124258;13,6
-"10";"SLOVENIJA";2014;"Spol - SKUPAJ";781561;129843;14,2
-"11";"SLOVENIJA";2015;"Spol - SKUPAJ";794254;124279;13,5
-"12";"SLOVENIJA";2016;"Spol - SKUPAJ";797997;118165;12,9
-"13";"SLOVENIJA";2017;"Spol - SKUPAJ";824485;99615;10,8
-"14";"Pomurska";2005;"Spol - SKUPAJ";45090;10216;18,5
-"15";"Pomurska";2006;"Spol - SKUPAJ";45308;10052;18,2
-"16";"Pomurska";2007;"Spol - SKUPAJ";46803;8510;15,4
-"17";"Pomurska";2008;"Spol - SKUPAJ";47740;7834;14,1
-"18";"Pomurska";2009;"Spol - SKUPAJ";47271;7980;14,4
-"19";"Pomurska";2010;"Spol - SKUPAJ";42369;11355;21,1
-"20";"Pomurska";2011;"Spol - SKUPAJ";43055;10993;20,3
-"21";"Pomurska";2012;"Spol - SKUPAJ";41317;10130;19,7
-"22";"Pomurska";2013;"Spol - SKUPAJ";40425;9729;19,4
-"23";"Pomurska";2014;"Spol - SKUPAJ";39271;9891;20,1
-"24";"Pomurska";2015;"Spol - SKUPAJ";38808;10595;21,4
-"25";"Pomurska";2016;"Spol - SKUPAJ";38148;10121;21
-"26";"Pomurska";2017;"Spol - SKUPAJ";39570;8263;17,3
-"27";"Podravska";2005;"Spol - SKUPAJ";120447;19648;14
-"28";"Podravska";2006;"Spol - SKUPAJ";121382;19931;14,1
-"29";"Podravska";2007;"Spol - SKUPAJ";126773;16886;11,8
-"30";"Podravska";2008;"Spol - SKUPAJ";132083;14580;9,9
-"31";"Podravska";2009;"Spol - SKUPAJ";132413;15295;10,4
-"32";"Podravska";2010;"Spol - SKUPAJ";124757;19977;13,8
-"33";"Podravska";2011;"Spol - SKUPAJ";122663;21315;14,8
-"34";"Podravska";2012;"Spol - SKUPAJ";119697;21716;15,4
-"35";"Podravska";2013;"Spol - SKUPAJ";116589;21472;15,6
-"36";"Podravska";2014;"Spol - SKUPAJ";115941;22016;16
-"37";"Podravska";2015;"Spol - SKUPAJ";117630;21402;15,4
-"38";"Podravska";2016;"Spol - SKUPAJ";117405;19780;14,4
-"39";"Podravska";2017;"Spol - SKUPAJ";120480;16924;12,3
-"40";"Koroška";2005;"Spol - SKUPAJ";29399;3678;11,1
-"41";"Koroška";2006;"Spol - SKUPAJ";29366;3790;11,4
-"42";"Koroška";2007;"Spol - SKUPAJ";29996;3155;9,5
-"43";"Koroška";2008;"Spol - SKUPAJ";30697;2570;7,7
-"44";"Koroška";2009;"Spol - SKUPAJ";30349;3167;9,4
-"45";"Koroška";2010;"Spol - SKUPAJ";28519;4222;12,9
-"46";"Koroška";2011;"Spol - SKUPAJ";27645;4823;14,9
-"47";"Koroška";2012;"Spol - SKUPAJ";28071;4329;13,4
-"48";"Koroška";2013;"Spol - SKUPAJ";27016;4648;14,7
-"49";"Koroška";2014;"Spol - SKUPAJ";26644;4593;14,7
-"50";"Koroška";2015;"Spol - SKUPAJ";26899;4037;13
-"51";"Koroška";2016;"Spol - SKUPAJ";26602;3681;12,2
-"52";"Koroška";2017;"Spol - SKUPAJ";27171;3041;10,1
-"53";"Savinjska";2005;"Spol - SKUPAJ";103566;15073;12,7
-"54";"Savinjska";2006;"Spol - SKUPAJ";104544;15351;12,8
-"55";"Savinjska";2007;"Spol - SKUPAJ";108119;12820;10,6
-"56";"Savinjska";2008;"Spol - SKUPAJ";112704;10970;8,9
-"57";"Savinjska";2009;"Spol - SKUPAJ";112912;10982;8,9
-"58";"Savinjska";2010;"Spol - SKUPAJ";107231;14012;11,6
-"59";"Savinjska";2011;"Spol - SKUPAJ";104809;16354;13,5
-"60";"Savinjska";2012;"Spol - SKUPAJ";104460;15875;13,2
-"61";"Savinjska";2013;"Spol - SKUPAJ";101611;17141;14,4
-"62";"Savinjska";2014;"Spol - SKUPAJ";100597;17730;15
-"63";"Savinjska";2015;"Spol - SKUPAJ";99206;16979;14,6
-"64";"Savinjska";2016;"Spol - SKUPAJ";99330;16343;14,1
-"65";"Savinjska";2017;"Spol - SKUPAJ";102769;13852;11,9
-"66";"Zasavska";2005;"Spol - SKUPAJ";17455;2871;14,1
-"67";"Zasavska";2006;"Spol - SKUPAJ";17592;2653;13,1
-"68";"Zasavska";2007;"Spol - SKUPAJ";18052;2240;11
-"69";"Zasavska";2008;"Spol - SKUPAJ";18548;1869;9,2
-"70";"Zasavska";2009;"Spol - SKUPAJ";18540;1895;9,3
-"71";"Zasavska";2010;"Spol - SKUPAJ";17392;2379;12
-"72";"Zasavska";2011;"Spol - SKUPAJ";16783;2641;13,6
-"73";"Zasavska";2012;"Spol - SKUPAJ";16631;2833;14,6
-"74";"Zasavska";2013;"Spol - SKUPAJ";15968;3160;16,5
-"75";"Zasavska";2014;"Spol - SKUPAJ";15477;3548;18,6
-"76";"Zasavska";2015;"Spol - SKUPAJ";22029;4156;15,9
-"77";"Zasavska";2016;"Spol - SKUPAJ";21821;3977;15,4
-"78";"Zasavska";2017;"Spol - SKUPAJ";22412;3316;12,9
-"79";"Posavska";2005;"Spol - SKUPAJ";27108;3668;11,9
-"80";"Posavska";2006;"Spol - SKUPAJ";27274;3712;12
-"81";"Posavska";2007;"Spol - SKUPAJ";28249;3091;9,9
-"82";"Posavska";2008;"Spol - SKUPAJ";29369;2759;8,6
-"83";"Posavska";2009;"Spol - SKUPAJ";29986;2978;9
-"84";"Posavska";2010;"Spol - SKUPAJ";28547;3947;12,1
-"85";"Posavska";2011;"Spol - SKUPAJ";28093;4577;14
-"86";"Posavska";2012;"Spol - SKUPAJ";27748;4655;14,4
-"87";"Posavska";2013;"Spol - SKUPAJ";27118;5113;15,9
-"88";"Posavska";2014;"Spol - SKUPAJ";26507;5210;16,4
-"89";"Posavska";2015;"Spol - SKUPAJ";29364;5115;14,8
-"90";"Posavska";2016;"Spol - SKUPAJ";29077;5045;14,8
-"91";"Posavska";2017;"Spol - SKUPAJ";29949;4310;12,6
-"92";"Jugovzhodna Slovenija";2005;"Spol - SKUPAJ";57925;5417;8,6
-"93";"Jugovzhodna Slovenija";2006;"Spol - SKUPAJ";58012;5988;9,4
-"94";"Jugovzhodna Slovenija";2007;"Spol - SKUPAJ";60015;5160;7,9
-"95";"Jugovzhodna Slovenija";2008;"Spol - SKUPAJ";62025;4427;6,7
-"96";"Jugovzhodna Slovenija";2009;"Spol - SKUPAJ";62153;5115;7,6
-"97";"Jugovzhodna Slovenija";2010;"Spol - SKUPAJ";59813;6582;9,9
-"98";"Jugovzhodna Slovenija";2011;"Spol - SKUPAJ";58910;7625;11,5
-"99";"Jugovzhodna Slovenija";2012;"Spol - SKUPAJ";57987;8477;12,8
-"100";"Jugovzhodna Slovenija";2013;"Spol - SKUPAJ";56457;9462;14,4
-"101";"Jugovzhodna Slovenija";2014;"Spol - SKUPAJ";55775;9989;15,2
-"102";"Jugovzhodna Slovenija";2015;"Spol - SKUPAJ";57360;9146;13,8
-"103";"Jugovzhodna Slovenija";2016;"Spol - SKUPAJ";57028;8971;13,6
-"104";"Jugovzhodna Slovenija";2017;"Spol - SKUPAJ";59107;7204;10,9
-"105";"Osrednjeslovenska";2005;"Spol - SKUPAJ";210487;16876;7,4
-"106";"Osrednjeslovenska";2006;"Spol - SKUPAJ";212738;17757;7,7
-"107";"Osrednjeslovenska";2007;"Spol - SKUPAJ";218469;15331;6,6
-"108";"Osrednjeslovenska";2008;"Spol - SKUPAJ";226127;13302;5,6
-"109";"Osrednjeslovenska";2009;"Spol - SKUPAJ";229389;13618;5,6
-"110";"Osrednjeslovenska";2010;"Spol - SKUPAJ";225608;19354;7,9
-"111";"Osrednjeslovenska";2011;"Spol - SKUPAJ";221257;24511;10
-"112";"Osrednjeslovenska";2012;"Spol - SKUPAJ";219607;24529;10
-"113";"Osrednjeslovenska";2013;"Spol - SKUPAJ";214165;28007;11,6
-"114";"Osrednjeslovenska";2014;"Spol - SKUPAJ";213694;30144;12,4
-"115";"Osrednjeslovenska";2015;"Spol - SKUPAJ";211910;28228;11,8
-"116";"Osrednjeslovenska";2016;"Spol - SKUPAJ";215933;27346;11,2
-"117";"Osrednjeslovenska";2017;"Spol - SKUPAJ";224104;23923;9,6
-"118";"Gorenjska";2005;"Spol - SKUPAJ";80787;6530;7,5
-"119";"Gorenjska";2006;"Spol - SKUPAJ";81470;6578;7,5
-"120";"Gorenjska";2007;"Spol - SKUPAJ";83453;4869;5,5
-"121";"Gorenjska";2008;"Spol - SKUPAJ";85873;4139;4,6
-"122";"Gorenjska";2009;"Spol - SKUPAJ";85768;5253;5,8
-"123";"Gorenjska";2010;"Spol - SKUPAJ";83462;7136;7,9
-"124";"Gorenjska";2011;"Spol - SKUPAJ";81848;8580;9,5
-"125";"Gorenjska";2012;"Spol - SKUPAJ";81680;8365;9,3
-"126";"Gorenjska";2013;"Spol - SKUPAJ";79787;9124;10,3
-"127";"Gorenjska";2014;"Spol - SKUPAJ";79529;9564;10,7
-"128";"Gorenjska";2015;"Spol - SKUPAJ";80837;8814;9,8
-"129";"Gorenjska";2016;"Spol - SKUPAJ";81908;8157;9,1
-"130";"Gorenjska";2017;"Spol - SKUPAJ";84531;6757;7,4
-"131";"Primorsko-notranjska";2005;"Spol - SKUPAJ";21542;1941;8,3
-"132";"Primorsko-notranjska";2006;"Spol - SKUPAJ";21874;1836;7,7
-"133";"Primorsko-notranjska";2007;"Spol - SKUPAJ";22559;1539;6,4
-"134";"Primorsko-notranjska";2008;"Spol - SKUPAJ";23482;1331;5,4
-"135";"Primorsko-notranjska";2009;"Spol - SKUPAJ";23642;1500;6
-"136";"Primorsko-notranjska";2010;"Spol - SKUPAJ";22688;2007;8,1
-"137";"Primorsko-notranjska";2011;"Spol - SKUPAJ";22277;2508;10,1
-"138";"Primorsko-notranjska";2012;"Spol - SKUPAJ";21968;2605;10,6
-"139";"Primorsko-notranjska";2013;"Spol - SKUPAJ";21153;2997;12,4
-"140";"Primorsko-notranjska";2014;"Spol - SKUPAJ";20903;3192;13,2
-"141";"Primorsko-notranjska";2015;"Spol - SKUPAJ";21254;2999;12,4
-"142";"Primorsko-notranjska";2016;"Spol - SKUPAJ";21311;2811;11,7
-"143";"Primorsko-notranjska";2017;"Spol - SKUPAJ";21809;2413;10
-"144";"Goriška";2005;"Spol - SKUPAJ";48511;3401;6,6
-"145";"Goriška";2006;"Spol - SKUPAJ";48745;3664;7
-"146";"Goriška";2007;"Spol - SKUPAJ";50089;2906;5,5
-"147";"Goriška";2008;"Spol - SKUPAJ";51518;2465;4,6
-"148";"Goriška";2009;"Spol - SKUPAJ";51653;2921;5,4
-"149";"Goriška";2010;"Spol - SKUPAJ";48466;4381;8,3
-"150";"Goriška";2011;"Spol - SKUPAJ";47525;5293;10
-"151";"Goriška";2012;"Spol - SKUPAJ";46877;5374;10,3
-"152";"Goriška";2013;"Spol - SKUPAJ";44915;6085;11,9
-"153";"Goriška";2014;"Spol - SKUPAJ";44251;6273;12,4
-"154";"Goriška";2015;"Spol - SKUPAJ";45320;5666;11,1
-"155";"Goriška";2016;"Spol - SKUPAJ";45281;5196;10,3
-"156";"Goriška";2017;"Spol - SKUPAJ";46733;4031;7,9
-"157";"Obalno-kraška";2005;"Spol - SKUPAJ";43320;3831;8,1
-"158";"Obalno-kraška";2006;"Spol - SKUPAJ";44181;3834;8
-"159";"Obalno-kraška";2007;"Spol - SKUPAJ";45428;3439;7
-"160";"Obalno-kraška";2008;"Spol - SKUPAJ";47176;2966;5,9
-"161";"Obalno-kraška";2009;"Spol - SKUPAJ";48170;3103;6,1
-"162";"Obalno-kraška";2010;"Spol - SKUPAJ";47229;3956;7,7
-"163";"Obalno-kraška";2011;"Spol - SKUPAJ";46001;4980;9,8
-"164";"Obalno-kraška";2012;"Spol - SKUPAJ";45525;5269;10,4
-"165";"Obalno-kraška";2013;"Spol - SKUPAJ";43507;5915;12
-"166";"Obalno-kraška";2014;"Spol - SKUPAJ";42972;6609;13,3
-"167";"Obalno-kraška";2015;"Spol - SKUPAJ";43637;6155;12,4
-"168";"Obalno-kraška";2016;"Spol - SKUPAJ";44153;6022;12
-"169";"Obalno-kraška";2017;"Spol - SKUPAJ";45850;5013;9,9
+"";"Regija";"Leto";"Delovno.aktivno.prebivalstvo.po.prebivaliscu";"Registrirane.brezposelne.osebe";"Stopnja.registrirane.brezposelnosti"
+"1";"Pomurska";2005;45090;10216;18,5
+"2";"Pomurska";2006;45308;10052;18,2
+"3";"Pomurska";2007;46803;8510;15,4
+"4";"Pomurska";2008;47740;7834;14,1
+"5";"Pomurska";2009;47271;7980;14,4
+"6";"Pomurska";2010;42369;11355;21,1
+"7";"Pomurska";2011;43055;10993;20,3
+"8";"Pomurska";2012;41317;10130;19,7
+"9";"Pomurska";2013;40425;9729;19,4
+"10";"Pomurska";2014;39271;9891;20,1
+"11";"Pomurska";2015;38808;10595;21,4
+"12";"Pomurska";2016;38148;10121;21
+"13";"Pomurska";2017;39570;8263;17,3
+"14";"Podravska";2005;120447;19648;14
+"15";"Podravska";2006;121382;19931;14,1
+"16";"Podravska";2007;126773;16886;11,8
+"17";"Podravska";2008;132083;14580;9,9
+"18";"Podravska";2009;132413;15295;10,4
+"19";"Podravska";2010;124757;19977;13,8
+"20";"Podravska";2011;122663;21315;14,8
+"21";"Podravska";2012;119697;21716;15,4
+"22";"Podravska";2013;116589;21472;15,6
+"23";"Podravska";2014;115941;22016;16
+"24";"Podravska";2015;117630;21402;15,4
+"25";"Podravska";2016;117405;19780;14,4
+"26";"Podravska";2017;120480;16924;12,3
+"27";"Koroška";2005;29399;3678;11,1
+"28";"Koroška";2006;29366;3790;11,4
+"29";"Koroška";2007;29996;3155;9,5
+"30";"Koroška";2008;30697;2570;7,7
+"31";"Koroška";2009;30349;3167;9,4
+"32";"Koroška";2010;28519;4222;12,9
+"33";"Koroška";2011;27645;4823;14,9
+"34";"Koroška";2012;28071;4329;13,4
+"35";"Koroška";2013;27016;4648;14,7
+"36";"Koroška";2014;26644;4593;14,7
+"37";"Koroška";2015;26899;4037;13
+"38";"Koroška";2016;26602;3681;12,2
+"39";"Koroška";2017;27171;3041;10,1
+"40";"Savinjska";2005;103566;15073;12,7
+"41";"Savinjska";2006;104544;15351;12,8
+"42";"Savinjska";2007;108119;12820;10,6
+"43";"Savinjska";2008;112704;10970;8,9
+"44";"Savinjska";2009;112912;10982;8,9
+"45";"Savinjska";2010;107231;14012;11,6
+"46";"Savinjska";2011;104809;16354;13,5
+"47";"Savinjska";2012;104460;15875;13,2
+"48";"Savinjska";2013;101611;17141;14,4
+"49";"Savinjska";2014;100597;17730;15
+"50";"Savinjska";2015;99206;16979;14,6
+"51";"Savinjska";2016;99330;16343;14,1
+"52";"Savinjska";2017;102769;13852;11,9
+"53";"Zasavska";2005;17455;2871;14,1
+"54";"Zasavska";2006;17592;2653;13,1
+"55";"Zasavska";2007;18052;2240;11
+"56";"Zasavska";2008;18548;1869;9,2
+"57";"Zasavska";2009;18540;1895;9,3
+"58";"Zasavska";2010;17392;2379;12
+"59";"Zasavska";2011;16783;2641;13,6
+"60";"Zasavska";2012;16631;2833;14,6
+"61";"Zasavska";2013;15968;3160;16,5
+"62";"Zasavska";2014;15477;3548;18,6
+"63";"Zasavska";2015;22029;4156;15,9
+"64";"Zasavska";2016;21821;3977;15,4
+"65";"Zasavska";2017;22412;3316;12,9
+"66";"Spodnjeposavska";2005;27108;3668;11,9
+"67";"Spodnjeposavska";2006;27274;3712;12
+"68";"Spodnjeposavska";2007;28249;3091;9,9
+"69";"Spodnjeposavska";2008;29369;2759;8,6
+"70";"Spodnjeposavska";2009;29986;2978;9
+"71";"Spodnjeposavska";2010;28547;3947;12,1
+"72";"Spodnjeposavska";2011;28093;4577;14
+"73";"Spodnjeposavska";2012;27748;4655;14,4
+"74";"Spodnjeposavska";2013;27118;5113;15,9
+"75";"Spodnjeposavska";2014;26507;5210;16,4
+"76";"Spodnjeposavska";2015;29364;5115;14,8
+"77";"Spodnjeposavska";2016;29077;5045;14,8
+"78";"Spodnjeposavska";2017;29949;4310;12,6
+"79";"Jugovzhodna Slovenija";2005;57925;5417;8,6
+"80";"Jugovzhodna Slovenija";2006;58012;5988;9,4
+"81";"Jugovzhodna Slovenija";2007;60015;5160;7,9
+"82";"Jugovzhodna Slovenija";2008;62025;4427;6,7
+"83";"Jugovzhodna Slovenija";2009;62153;5115;7,6
+"84";"Jugovzhodna Slovenija";2010;59813;6582;9,9
+"85";"Jugovzhodna Slovenija";2011;58910;7625;11,5
+"86";"Jugovzhodna Slovenija";2012;57987;8477;12,8
+"87";"Jugovzhodna Slovenija";2013;56457;9462;14,4
+"88";"Jugovzhodna Slovenija";2014;55775;9989;15,2
+"89";"Jugovzhodna Slovenija";2015;57360;9146;13,8
+"90";"Jugovzhodna Slovenija";2016;57028;8971;13,6
+"91";"Jugovzhodna Slovenija";2017;59107;7204;10,9
+"92";"Osrednjeslovenska";2005;210487;16876;7,4
+"93";"Osrednjeslovenska";2006;212738;17757;7,7
+"94";"Osrednjeslovenska";2007;218469;15331;6,6
+"95";"Osrednjeslovenska";2008;226127;13302;5,6
+"96";"Osrednjeslovenska";2009;229389;13618;5,6
+"97";"Osrednjeslovenska";2010;225608;19354;7,9
+"98";"Osrednjeslovenska";2011;221257;24511;10
+"99";"Osrednjeslovenska";2012;219607;24529;10
+"100";"Osrednjeslovenska";2013;214165;28007;11,6
+"101";"Osrednjeslovenska";2014;213694;30144;12,4
+"102";"Osrednjeslovenska";2015;211910;28228;11,8
+"103";"Osrednjeslovenska";2016;215933;27346;11,2
+"104";"Osrednjeslovenska";2017;224104;23923;9,6
+"105";"Gorenjska";2005;80787;6530;7,5
+"106";"Gorenjska";2006;81470;6578;7,5
+"107";"Gorenjska";2007;83453;4869;5,5
+"108";"Gorenjska";2008;85873;4139;4,6
+"109";"Gorenjska";2009;85768;5253;5,8
+"110";"Gorenjska";2010;83462;7136;7,9
+"111";"Gorenjska";2011;81848;8580;9,5
+"112";"Gorenjska";2012;81680;8365;9,3
+"113";"Gorenjska";2013;79787;9124;10,3
+"114";"Gorenjska";2014;79529;9564;10,7
+"115";"Gorenjska";2015;80837;8814;9,8
+"116";"Gorenjska";2016;81908;8157;9,1
+"117";"Gorenjska";2017;84531;6757;7,4
+"118";"Notranjsko-kraška";2005;21542;1941;8,3
+"119";"Notranjsko-kraška";2006;21874;1836;7,7
+"120";"Notranjsko-kraška";2007;22559;1539;6,4
+"121";"Notranjsko-kraška";2008;23482;1331;5,4
+"122";"Notranjsko-kraška";2009;23642;1500;6
+"123";"Notranjsko-kraška";2010;22688;2007;8,1
+"124";"Notranjsko-kraška";2011;22277;2508;10,1
+"125";"Notranjsko-kraška";2012;21968;2605;10,6
+"126";"Notranjsko-kraška";2013;21153;2997;12,4
+"127";"Notranjsko-kraška";2014;20903;3192;13,2
+"128";"Notranjsko-kraška";2015;21254;2999;12,4
+"129";"Notranjsko-kraška";2016;21311;2811;11,7
+"130";"Notranjsko-kraška";2017;21809;2413;10
+"131";"Goriška";2005;48511;3401;6,6
+"132";"Goriška";2006;48745;3664;7
+"133";"Goriška";2007;50089;2906;5,5
+"134";"Goriška";2008;51518;2465;4,6
+"135";"Goriška";2009;51653;2921;5,4
+"136";"Goriška";2010;48466;4381;8,3
+"137";"Goriška";2011;47525;5293;10
+"138";"Goriška";2012;46877;5374;10,3
+"139";"Goriška";2013;44915;6085;11,9
+"140";"Goriška";2014;44251;6273;12,4
+"141";"Goriška";2015;45320;5666;11,1
+"142";"Goriška";2016;45281;5196;10,3
+"143";"Goriška";2017;46733;4031;7,9
+"144";"Obalno-kraška";2005;43320;3831;8,1
+"145";"Obalno-kraška";2006;44181;3834;8
+"146";"Obalno-kraška";2007;45428;3439;7
+"147";"Obalno-kraška";2008;47176;2966;5,9
+"148";"Obalno-kraška";2009;48170;3103;6,1
+"149";"Obalno-kraška";2010;47229;3956;7,7
+"150";"Obalno-kraška";2011;46001;4980;9,8
+"151";"Obalno-kraška";2012;45525;5269;10,4
+"152";"Obalno-kraška";2013;43507;5915;12
+"153";"Obalno-kraška";2014;42972;6609;13,3
+"154";"Obalno-kraška";2015;43637;6155;12,4
+"155";"Obalno-kraška";2016;44153;6022;12
+"156";"Obalno-kraška";2017;45850;5013;9,9

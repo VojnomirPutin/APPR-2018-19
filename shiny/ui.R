@@ -1,17 +1,11 @@
 library(shiny)
 
 shinyUI(fluidPage(
-  
-  titlePanel("Slovenske občine"),
+  titlePanel(''),
   
   tabsetPanel(
-      tabPanel("Velikost družine",
-               DT::dataTableOutput("druzine")),
-      
-      tabPanel("Število naselij",
-               sidebarPanel(
-                  uiOutput("pokrajine")
-                ),
-               mainPanel(plotOutput("naselja")))
-    )
-))
+    tabPanel('Indeks',
+             sidebarPanel(
+               selectInput('Regija', 'Regija', c(1,2,3,4)),
+               mainPanel(plotOutput('indeks')))))))
+  
