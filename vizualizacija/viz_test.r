@@ -4,8 +4,8 @@ library(dplyr)
 library(rgdal)
 library(mosaic)
 library(maptools)
-library(anchors)
 library(maps)
+library(plotly)
 
 source(file = 'lib/uvozi.zemljevid.r', encoding = 'UTF-8')
 source('lib/libraries.r', encoding = 'UTF-8')
@@ -125,22 +125,30 @@ regije <-left_join(regije, brezposelni.regije, by='Regija')
 
 regije1 <- regije[,-1]
 fit<-hclust(dist(scale(regije1)))
-skupine2 <- cutree(fit, 5)
+skupine2 <- cutree(fit, 4)
 
 cluster2 <- mutate(regije, skupine2)
 
 zemljevid_cluster <- ggplot() + 
   geom_polygon(data = right_join(cluster2[c(-2:-27)], Slovenija, by=c('Regija')), aes(x=long, y=lat, group = group, fill=factor(skupine2))) + 
-  geom_polygon(data=Slovenija, aes(x=long, y=lat), color='white', fill=NA) +
   geom_line() +
   theme(axis.title=element_blank(), axis.text=element_blank(), axis.ticks=element_blank(), panel.background = element_blank()) + 
  # guides(fill=guide_colorbar(title='Skupine')) + 
   ggtitle('Slovenske regije po skupinah glede na povprecne mesecne place in stopnjo brezposelnosti med leti 2005 in 2017')
   
 plot(zemljevid_cluster)
+# zemljevid_cluster <-  zemljevid_cluster + geom_polygon(data=Slovenija, aes(x=long, y=lat), color='white', fill=NA) 
+# plot(zemljevid_cluster)
 
 
 
+skupni.test <-left_join(delovno.aktivno.prebivalstvo[c(-3,-4)], mesecne.place.regije, by=c('Regija', 'Leto'))
+test <- ggplot(data=skupni.test, aes(x=Neto_placa, y=Stopnja.registrirane.brezposelnosti, color = Regija )) + geom_point(aes(frame=Leto, ids=Regija)) + scale_x_log10()
+test <- ggplotly(test)
 
 
+skupno <- left_join(Slovenija, delovno.aktivno.prebivalstvo[c(-3,-4)], by=c('Regija'))
+test2 <- ggplot(skupno, aes(x=long, y=lat)) + geom_polygon(data=skupno, aes(fill = Stopnja.registrirane.brezposelnosti, group=id))
+test2 <- ggplotly(test2)
+print(test2)
 
