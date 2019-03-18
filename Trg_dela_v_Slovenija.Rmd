@@ -1,0 +1,82 @@
+---
+title: "Trg dela v Sloveniji"
+author: "Žan Kramar"
+date: "02 marec 2019"
+output:
+  html_document: default
+  pdf_document: 
+  includes:
+    in_header: lib/styles.sty
+  latex_engine: xelatex
+
+
+---
+
+```{r setup, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+
+source('lib/libraries.r', encoding='UTF-8')
+Sys.setlocale('LC_ALL', 'Slovenian')
+```
+
+![](slike/slika_zacetek.jpg)
+Vir: www.123rf.com
+
+
+```{r studio, echo=FALSE, results='asis'}
+source('lib/rstudio.r', encoding='UTF-8')
+```
+
+# Uvod
+
+V projektu bom analiziral trg dela v Sloveniji skozi leta iz vidnikov brezposelnosti, zaposlenosti in višine plač po letih, regijah ter panogah.
+
+## Tabele
+
+1. tabela: leto, statistična regija, spol, aktivno prebivalstvo, zaposleni, brezposelni
+2. tabela: leto, statistična regija, prosta delovna mesta
+3. tabela: leto, statistična regija, spol, povprečna plača, dejavnost
+4. tabela: leto, statistična regija, spol, število ljudi v plačilnem razredu
+
+To so glavne tabele, iz njih sem izpeljal veliko drugih tabel, ki sem jih uporabljal za predstavitev vseh podatkov.
+
+## Povezave do tabel
+
+1. tabela: [link]('https://pxweb.stat.si/pxweb/Dialog/varval.asp?ma=0700950S&ti=&path=../Database/Dem_soc/07_trg_dela/90_arhivski_podatki/02_akt_preb_mes_arhiv/&lang=2')
+
+2. tabela: [link]('https://pxweb.stat.si/pxweb/Dialog/varval.asp?ma=0711535S&ti=&path=../Database/Dem_soc/07_trg_dela/10_place/10_07115_zap_osebe_placa/&lang=2')
+
+3. tabela: [link]('https://pxweb.stat.si/pxweb/Dialog/varval.asp?ma=0701081S&ti=&path=../Database/Dem_soc/07_trg_dela/90_arhivski_podatki/80_place_arhiv/&lang=2')
+
+4. tabela [link](https://pxweb.stat.si/pxweb/Dialog/varval.asp?ma=0714694S&ti=&path=../Database/Dem_soc/07_trg_dela/30_07146_prosta_mesta/&lang=2')
+
+
+
+## Prosta delovna mesta
+```{r vizualizacija, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
+source('vizualizacija/viz_test.r', encoding = 'UTF-8')
+```
+Za začetek je tu graf, ki prikazuje gibanje prostih delovnih mest skozi leta za celotno Slovenijo. Jasno se vidi vpliv gospodarske krize, ki se je začela v letu 2008.
+
+```{r graf.prostih.delovnih.mest.slovenija, echo=FALSE, message=FALSE, error=FALSE, warning=FALSE, fig.align='center', fig.height=5, fig.cap='Graf prostih delovnih mest v Sloveniji'}
+plot(graf.prostih.delovnih.mest.slovenije)
+```
+
+
+
+
+
+
+
+
+
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
