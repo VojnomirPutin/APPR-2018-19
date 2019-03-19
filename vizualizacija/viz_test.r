@@ -37,9 +37,6 @@ graf.slovenija.zemljevid <- ggplot(Slovenija, aes(x=long, y=lat, fill=Regija)) +
 
 #plot(graf.slovenija.zemljevid)
 
-# graf <- ggplot() + geom_map(data = Slovenija, map = Slovenija, aes(x=long, y=lat, map_id=id, fill = Regije))+
-#   theme_map() +geom_map(data=prebivalstvo_po_regijah,map_id=id, map = Slovenija, stat='identity', inherit.aes = TRUE)
-# plot(graf)
 
 graf.indeksi <- ggplot((data=indeksi), aes(x=Leto, y=Indeks, col=Regija)) + geom_point() + geom_line()
 #plot(graf.indeksi)
@@ -135,18 +132,20 @@ cluster2 <- mutate(regije, skupine2)
 zemljevid_cluster <- ggplot() + 
   geom_polygon(data = right_join(cluster2[c(-2:-27)], Slovenija, by=c('Regija')), aes(x=long, y=lat, group = group, fill=factor(skupine2))) + 
   geom_line() +
-  theme(axis.title=element_blank(), axis.text=element_blank(), axis.ticks=element_blank(), panel.background = element_blank()) + 
+  theme(axis.title=element_blank(), axis.text=element_blank(), axis.ticks=element_blank(), panel.background = element_blank(), legend.position = 'none') + 
  # guides(fill=guide_colorbar(title='Skupine')) + 
   ggtitle('Slovenske regije po skupinah glede na povprecne mesecne place in stopnjo brezposelnosti med leti 2005 in 2017')
   
 #plot(zemljevid_cluster)
-# zemljevid_cluster <-  zemljevid_cluster + geom_polygon(data=Slovenija, aes(x=long, y=lat), color='white', fill=NA) 
-# plot(zemljevid_cluster)
+#zemljevid_cluster <-  zemljevid_cluster + geom_polygon(data=Slovenija, aes(x=long, y=lat), color='white', fill=NA) 
+#plot(zemljevid_cluster)
 
 
 skupni.test <-left_join(delovno.aktivno.prebivalstvo[c(-3,-4)], mesecne.place.regije, by=c('Regija', 'Leto'))
 graf_test <- ggplot(data=skupni.test, aes(x=Neto_placa, y=Stopnja.registrirane.brezposelnosti, color = Regija )) + geom_point(aes(frame=Leto, ids=Regija)) + scale_x_log10()
+graf_test <- graf_test + xlab('Neto plača v evrih') + ylab('Stopnja registrirane brezposelnosti v %')
 graf_test <- ggplotly(graf_test)
+
 
 #plače plotly
 place.viz <- povprecne.mesecne.place.dejavnosti[-6] %>% filter(Regija == 'SLOVENIJA')
@@ -154,8 +153,12 @@ place.viz <- place.viz[-1]
 colnames(place.viz)[3] <- 'Neto.placa'
 colnames(place.viz)[4] <- 'Urna.postavka'
 graf_place <- ggplot(data = place.viz, aes(x=Urna.postavka, y=Neto.placa, color=Dejavnost)) + geom_point(aes(frame=Leto, ids=Dejavnost)) + scale_x_log10()
+graf_place <- graf_place + xlab('Urna postavka v evrih') + ylab('Neto plača v evrih')
 graf_place <- ggplotly(graf_place)
 #print(graf_place)
+
+
+
 
 
 

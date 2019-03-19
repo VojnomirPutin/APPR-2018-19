@@ -9,7 +9,7 @@ napoved <- mutate(leta, Registrirane.brezposelne.osebe=predict(prileganje,leta))
 graf.napovedi <- ggplot(brezposelni.Slovenija, aes(x=Leto, y=Registrirane.brezposelne.osebe))+ 
   geom_point() + geom_smooth(method=lm, fullrange=TRUE, color='red') + geom_point(data=napoved, inherit.aes = TRUE)+
   labs(title='Registrirane brezposelne osebe v Sloveniji')
-plot(graf.napovedi)
+#plot(graf.napovedi)
 
 #graf procentne brezposelnosti
 
@@ -24,4 +24,4 @@ napoved.odstotka<-mutate(leta1, Odstotek=predict(prileganje1,leta1))
 
 graf.napovedi.odstotkov <- ggplot(brezposelnost, aes(x=Leto, y=Odstotek)) + geom_point(data=napoved.odstotka, inherit.aes = TRUE) + 
   geom_smooth(method=lm, fullrange=TRUE, color='green') + geom_point() + labs(title='Odstotek registrirane brezposelnosti v Sloveniji')
-plot(graf.napovedi.odstotkov)
+#plot(graf.napovedi.odstotkov)

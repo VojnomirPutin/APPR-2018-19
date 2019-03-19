@@ -51,32 +51,72 @@ To so glavne tabele, iz njih sem izpeljal veliko drugih tabel, ki sem jih uporab
 
 
 
-## Prosta delovna mesta
+## Prosta delovna mesta in brezposelnost
 ```{r vizualizacija, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
 source('vizualizacija/viz_test.r', encoding = 'UTF-8')
 ```
 Za začetek je tu graf, ki prikazuje gibanje prostih delovnih mest skozi leta za celotno Slovenijo. Jasno se vidi vpliv gospodarske krize, ki se je začela v letu 2008.
 
-```{r graf.prostih.delovnih.mest.slovenija, echo=FALSE, message=FALSE, error=FALSE, warning=FALSE, fig.align='center', fig.height=5, fig.cap='Graf prostih delovnih mest v Sloveniji'}
+```{r graf.prostih.delovnih.mest.slovenija, echo=FALSE, message=FALSE, error=FALSE, warning=FALSE, fig.align='center', fig.height=7, fig.cap='Graf prostih delovnih mest v Sloveniji'}
 plot(graf.prostih.delovnih.mest.slovenije)
 ```
 
+Za primerjavo sem ustvaril tudi graf prostovoljne brezposelonsti, ki jo predstavlja kvocient ostih delovnih mest s številom brezposelnih po letih in regijah. Ta kvocient sem poimenoval indeks prostovoljne brezposelnosti.
 
+```{r graf.indeksi, echo=FALSE, message=FALSE, error=FALSE, warning=FALSE, fig.align='center', fig.height=7, fig.cap='Graf indeksov prostovoljne brezposelnosti v Sloveniji po statističnih regijah'}
+plot(graf.indeksi)
+```
+Spet je jasen vpliv krize, ki se je začela v 2008 in se hitro spusti indeks pod 0,1.
 
+```{r zemljevid.2007.brezposelnost, zemljevid.2011.brezposelnost, zemljevid.2015.brezposelnost, echo=FALSE, message=FALSE, error=FALSE, warning=FALSE, fig.align='center', fig.height=5}
+plot(zemljevid.2007.brezposelnost)
 
+plot(zemljevid.2011.brezposelnost)
 
-
-
-
-
-
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+plot(zemljevid.2015.brezposelnost)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Skozi leta lako vidimo, da je v Pomurski regiji vedno stopnja najvišja v Sloveniji, ponavadi več kot 20%, kar pa lahko pripišemo k dejstvu, da dobršen delež prebivalstva dela 'na črno' v sosednjih državah. Gorenjska pa je statistično 'najboljša' regija, saj je stopnja brezposelnosti stalno pod 10% z izjemo v letu 2013.
+
+
+```{r analiza, echo=FALSE, message=FALSE, error=FALSE, warning=FALSE, results='hide'}
+source('analiza/analita_test.r', encoding='UTF-8')
+```
+Opazimo lahko tudi trend povečanja brezposelnosti, ki je razviden tudi iz napovedi za Slovenijo, razvidno v spodnjem grafu.
+
+```{r graf.napovedi.odstotkov, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, fig.align='center', fig.height=7, fig.cap='Napoved brezposelnosti'}
+plot(graf.napovedi.odstotkov)
+```
+
+## Plače in njihova povezava z brezposelnostjo
+
+```{r zemljevid_cluster, echo=FALSE, message=FALSE, error=FALSE, warning=FALSE, fig.align='center', fig.height=7, fig.width=10, fig.cap='Regije'}
+plot(zemljevid_cluster)
+```
+V zgornje grafu so regije razporejene po skupinah glede na neto plačo ter registrirano stopnjo brezposlenosti skozi leta. Vidimo, da sta dve večji skupini in dve manjši, v katetih je le po ena regija. 
+
+
+V spodnjem grafu so predstavljene regije glede na stopnjo registrirane brezposlenosti in neto plače skozi leta.
+
+```{r graf_test, fig.cap='Projekcija regij', echo=FALSE, message=FALSE, error=FALSE, warning=FALSE, fig.align='center'}
+graf_test
+```
+V grafu lahko vidimo tako vpliv krize kot korelacijo med nizko stopnjo registriane brezposlenosti in višino neto plače. Nižja kot je brezposelnost, višja je neto plača.
+
+```{r graf_place, fig.cap='Plače po panogah', fig.width= 15, fig.height=7, echo=FALSE, message=FALSE, error=FALSE, warning=FALSE, fig.align='center'}
+graf_place
+```
+
+Iz grafa se lahko vidi da prevelikih odstopanj od plače na uro in neto plače ni, kar je po pričakovanjih. Najboljše plačane panoge so v finančne in zavarovalniške dejavnosti, rudarstvo, oskrba z  viri energije ter infromacijske storitve. Najslabše plačane so gostinstvo, gradbeništvo in storitve označene kot 'drugo'. Skozi leta lahko vidimo večanje razmika v plačah med panogami.
+
+## Zaključek
+
+Iz analize vidimo, da na splošno glede na različne parametre lahko zaključimo, da ima zahodni del Slovenije boljši trg dela kot vzhodni.
+V dosti grafih se opazi učinek gospodarske krize v leto 2008 in posledice nje ali ukrepov proti.
+Zanimivo je, da se kljub povečevanju stopnje brezposelnosti vseeno povečujejo neto plače v vseh panogah našega gospodarstva. Glede najbolje plačanih planig ni kakšnih presenečenj, z izjemo rudarstva.
+
+
+
+
+
+
