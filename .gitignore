@@ -50,3 +50,5 @@ zemljevidi/
 .Rproj.user
 .rstudio/
 .subversion/
+.RDataTmp/
+

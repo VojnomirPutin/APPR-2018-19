@@ -80,7 +80,7 @@ Skozi leta lako vidimo, da je v Pomurski regiji vedno stopnja najvišja v Sloven
 
 
 ```{r analiza, echo=FALSE, message=FALSE, error=FALSE, warning=FALSE, results='hide'}
-source('analiza/analita_test.r', encoding='UTF-8')
+source('analiza/analiza_test.r', encoding='UTF-8')
 ```
 Opazimo lahko tudi trend povečanja brezposelnosti, ki je razviden tudi iz napovedi za Slovenijo, razvidno v spodnjem grafu.
 
@@ -90,7 +90,7 @@ plot(graf.napovedi.odstotkov)
 
 ## Plače in njihova povezava z brezposelnostjo
 
-```{r zemljevid_cluster, echo=FALSE, message=FALSE, error=FALSE, warning=FALSE, fig.align='center', fig.height=7, fig.width=10, fig.cap='Regije'}
+```{r zemljevid_cluster, echo=FALSE, message=FALSE, error=FALSE, warning=FALSE, fig.align='center', fig.height=7, fig.width=10}
 plot(zemljevid_cluster)
 ```
 V zgornje grafu so regije razporejene po skupinah glede na neto plačo ter registrirano stopnjo brezposlenosti skozi leta. Vidimo, da sta dve večji skupini in dve manjši, v katetih je le po ena regija. 

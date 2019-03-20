@@ -67,33 +67,35 @@ zemljevid.2007.brezposelnost <- ggplot() +
                xlab("") + ylab("") + ggtitle('Brezposelnost v letu 2007') + 
   theme(axis.title=element_blank(), axis.text=element_blank(), axis.ticks=element_blank(), panel.background = element_blank()) + 
   scale_fill_gradient(low = '#ffb3b3', high='#660000')
+zemljevid.2007.brezposelnost$labels$fill <- 'Stopnja registrirane brezposelnosti'
 
 zemljevid.2009.brezposelnost <- ggplot() +
   geom_polygon(data = right_join(brezposelnost.2009,Slovenija, by = c('Regija')),
                aes(x = long, y = lat, group = group, fill = Stopnja.registrirane.brezposelnosti))+
   xlab("") + ylab("") + ggtitle('Brezposelnost v letu 2009') + theme(axis.title=element_blank(), axis.text=element_blank(), axis.ticks=element_blank(), panel.background = element_blank()) + 
   scale_fill_gradient(low = '#ffb3b3', high='#660000')
-
+zemljevid.2009.brezposelnost$labels$fill <- 'Stopnja registrirane brezposelnosti'
 
 zemljevid.2011.brezposelnost <- ggplot() +
   geom_polygon(data = right_join(brezposelnost.2011,Slovenija, by = c('Regija')),
                aes(x = long, y = lat, group = group, fill = Stopnja.registrirane.brezposelnosti))+
   xlab("") + ylab("") + ggtitle('Brezposelnost v letu 2011') + theme(axis.title=element_blank(), axis.text=element_blank(),axis.ticks=element_blank(), panel.background = element_blank()) + 
   scale_fill_gradient(low = '#ffb3b3', high='#660000')
-
+zemljevid.2011.brezposelnost$labels$fill <- 'Stopnja registrirane brezposelnosti'
 
 zemljevid.2013.brezposelnost <- ggplot() +
   geom_polygon(data = right_join(brezposelnost.2013,Slovenija, by = c('Regija')),
                aes(x = long, y = lat, group = group, fill = Stopnja.registrirane.brezposelnosti))+
   xlab("") + ylab("") + ggtitle('Brezposelnost v letu 2013') + theme(axis.title=element_blank(), axis.text=element_blank(), axis.ticks=element_blank(), panel.background = element_blank()) + 
   scale_fill_gradient(low = '#ffb3b3', high='#660000')
+zemljevid.2013.brezposelnost$labels$fill <- 'Stopnja registrirane brezposelnosti'
 
 zemljevid.2015.brezposelnost <- ggplot() +
   geom_polygon(data = right_join(brezposelnost.2015,Slovenija, by = c('Regija')),
                aes(x = long, y = lat, group = group, fill = Stopnja.registrirane.brezposelnosti))+
   xlab("") + ylab("") + ggtitle('Brezposelnost v letu 2015') + theme(axis.title=element_blank(), axis.text=element_blank(),
                                                                      axis.ticks=element_blank(), panel.background = element_blank()) + scale_fill_gradient(low = '#ffb3b3', high='#660000')
-
+zemljevid.2015.brezposelnost$labels$fill <- 'Stopnja registrirane brezposelnosti'
 
 #plot(zemljevid.2007.brezposelnost)
 #plot(zemljevid.2009.brezposelnost)
@@ -134,7 +136,7 @@ zemljevid_cluster <- ggplot() +
   geom_line() +
   theme(axis.title=element_blank(), axis.text=element_blank(), axis.ticks=element_blank(), panel.background = element_blank(), legend.position = 'none') + 
  # guides(fill=guide_colorbar(title='Skupine')) + 
-  ggtitle('Slovenske regije po skupinah glede na povprecne mesecne place in stopnjo brezposelnosti med leti 2005 in 2017')
+  ggtitle('Slovenske regije po skupinah glede na povprecne mesečne plače in stopnjo brezposelnosti med leti 2005 in 2017')
   
 #plot(zemljevid_cluster)
 #zemljevid_cluster <-  zemljevid_cluster + geom_polygon(data=Slovenija, aes(x=long, y=lat), color='white', fill=NA) 

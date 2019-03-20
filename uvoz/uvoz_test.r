@@ -39,7 +39,7 @@ brezposelni.Slovenija<- brezposelni.Slovenija[c(-5,-3, -1)]
 # 2. tabela: povprecne mesecne place po deajvnostih
 povprecne.mesecne.place.dejavnosti <- read.csv2(file = 'podatki/mesec_place_dejavnosti.csv', skip = 4, 
                                                 header = TRUE, sep = ';', dec = '.', fill = TRUE, strip.white = TRUE, 
-                                                encoding = 'Windows-1250', nrows = 3134, check.names = TRUE,
+                                                fileEncoding = 'Windows-1250', nrows = 3134, check.names = TRUE,
                                                 skipNul = FALSE, na = c('-', ' ', 'z'), col.names = c('Regija', 'Dejavnost', 'Leto', 'Plača za obodbje v EUR',
                                                                                                  'Plača_za_delano_uro_v_obdobju v EUR', 'Indeks spremembe plače glede na prejšnje obdobje'))
 
